@@ -25,5 +25,4505 @@
     "year": 1963,
     "stock_id": "STK-003",
     "stock": 0
+  },
+  {
+    "id": 4,
+    "title": "Libro de prueba 001",
+    "author": "Autor de prueba 01",
+    "genre": "Ficción",
+    "year": 1950,
+    "stock_id": "STK-004",
+    "stock": 0
+  },
+  {
+    "id": 5,
+    "title": "Libro de prueba 002",
+    "author": "Autor de prueba 02",
+    "genre": "Ciencia ficción",
+    "year": 1951,
+    "stock_id": "STK-005",
+    "stock": 1
+  },
+  {
+    "id": 6,
+    "title": "Libro de prueba 003",
+    "author": "Autor de prueba 03",
+    "genre": "Fantasía",
+    "year": 1952,
+    "stock_id": "STK-006",
+    "stock": 2
+  },
+  {
+    "id": 7,
+    "title": "Libro de prueba 004",
+    "author": "Autor de prueba 04",
+    "genre": "Historia",
+    "year": 1953,
+    "stock_id": "STK-007",
+    "stock": 3
+  },
+  {
+    "id": 8,
+    "title": "Libro de prueba 005",
+    "author": "Autor de prueba 05",
+    "genre": "Misterio",
+    "year": 1954,
+    "stock_id": "STK-008",
+    "stock": 4
+  },
+  {
+    "id": 9,
+    "title": "Libro de prueba 006",
+    "author": "Autor de prueba 06",
+    "genre": "Poesía",
+    "year": 1955,
+    "stock_id": "STK-009",
+    "stock": 5
+  },
+  {
+    "id": 10,
+    "title": "Libro de prueba 007",
+    "author": "Autor de prueba 07",
+    "genre": "Aventura",
+    "year": 1956,
+    "stock_id": "STK-010",
+    "stock": 6
+  },
+  {
+    "id": 11,
+    "title": "Libro de prueba 008",
+    "author": "Autor de prueba 08",
+    "genre": "Biografía",
+    "year": 1957,
+    "stock_id": "STK-011",
+    "stock": 7
+  },
+  {
+    "id": 12,
+    "title": "Libro de prueba 009",
+    "author": "Autor de prueba 09",
+    "genre": "Ensayo",
+    "year": 1958,
+    "stock_id": "STK-012",
+    "stock": 8
+  },
+  {
+    "id": 13,
+    "title": "Libro de prueba 010",
+    "author": "Autor de prueba 10",
+    "genre": "Novela histórica",
+    "year": 1959,
+    "stock_id": "STK-013",
+    "stock": 9
+  },
+  {
+    "id": 14,
+    "title": "Libro de prueba 011",
+    "author": "Autor de prueba 11",
+    "genre": "Ficción",
+    "year": 1960,
+    "stock_id": "STK-014",
+    "stock": 10
+  },
+  {
+    "id": 15,
+    "title": "Libro de prueba 012",
+    "author": "Autor de prueba 12",
+    "genre": "Ciencia ficción",
+    "year": 1961,
+    "stock_id": "STK-015",
+    "stock": 11
+  },
+  {
+    "id": 16,
+    "title": "Libro de prueba 013",
+    "author": "Autor de prueba 13",
+    "genre": "Fantasía",
+    "year": 1962,
+    "stock_id": "STK-016",
+    "stock": 12
+  },
+  {
+    "id": 17,
+    "title": "Libro de prueba 014",
+    "author": "Autor de prueba 14",
+    "genre": "Historia",
+    "year": 1963,
+    "stock_id": "STK-017",
+    "stock": 13
+  },
+  {
+    "id": 18,
+    "title": "Libro de prueba 015",
+    "author": "Autor de prueba 15",
+    "genre": "Misterio",
+    "year": 1964,
+    "stock_id": "STK-018",
+    "stock": 14
+  },
+  {
+    "id": 19,
+    "title": "Libro de prueba 016",
+    "author": "Autor de prueba 16",
+    "genre": "Poesía",
+    "year": 1965,
+    "stock_id": "STK-019",
+    "stock": 15
+  },
+  {
+    "id": 20,
+    "title": "Libro de prueba 017",
+    "author": "Autor de prueba 17",
+    "genre": "Aventura",
+    "year": 1966,
+    "stock_id": "STK-020",
+    "stock": 16
+  },
+  {
+    "id": 21,
+    "title": "Libro de prueba 018",
+    "author": "Autor de prueba 18",
+    "genre": "Biografía",
+    "year": 1967,
+    "stock_id": "STK-021",
+    "stock": 17
+  },
+  {
+    "id": 22,
+    "title": "Libro de prueba 019",
+    "author": "Autor de prueba 19",
+    "genre": "Ensayo",
+    "year": 1968,
+    "stock_id": "STK-022",
+    "stock": 18
+  },
+  {
+    "id": 23,
+    "title": "Libro de prueba 020",
+    "author": "Autor de prueba 20",
+    "genre": "Novela histórica",
+    "year": 1969,
+    "stock_id": "STK-023",
+    "stock": 19
+  },
+  {
+    "id": 24,
+    "title": "Libro de prueba 021",
+    "author": "Autor de prueba 21",
+    "genre": "Ficción",
+    "year": 1970,
+    "stock_id": "STK-024",
+    "stock": 20
+  },
+  {
+    "id": 25,
+    "title": "Libro de prueba 022",
+    "author": "Autor de prueba 22",
+    "genre": "Ciencia ficción",
+    "year": 1971,
+    "stock_id": "STK-025",
+    "stock": 21
+  },
+  {
+    "id": 26,
+    "title": "Libro de prueba 023",
+    "author": "Autor de prueba 23",
+    "genre": "Fantasía",
+    "year": 1972,
+    "stock_id": "STK-026",
+    "stock": 22
+  },
+  {
+    "id": 27,
+    "title": "Libro de prueba 024",
+    "author": "Autor de prueba 24",
+    "genre": "Historia",
+    "year": 1973,
+    "stock_id": "STK-027",
+    "stock": 23
+  },
+  {
+    "id": 28,
+    "title": "Libro de prueba 025",
+    "author": "Autor de prueba 25",
+    "genre": "Misterio",
+    "year": 1974,
+    "stock_id": "STK-028",
+    "stock": 24
+  },
+  {
+    "id": 29,
+    "title": "Libro de prueba 026",
+    "author": "Autor de prueba 26",
+    "genre": "Poesía",
+    "year": 1975,
+    "stock_id": "STK-029",
+    "stock": 25
+  },
+  {
+    "id": 30,
+    "title": "Libro de prueba 027",
+    "author": "Autor de prueba 27",
+    "genre": "Aventura",
+    "year": 1976,
+    "stock_id": "STK-030",
+    "stock": 26
+  },
+  {
+    "id": 31,
+    "title": "Libro de prueba 028",
+    "author": "Autor de prueba 28",
+    "genre": "Biografía",
+    "year": 1977,
+    "stock_id": "STK-031",
+    "stock": 27
+  },
+  {
+    "id": 32,
+    "title": "Libro de prueba 029",
+    "author": "Autor de prueba 29",
+    "genre": "Ensayo",
+    "year": 1978,
+    "stock_id": "STK-032",
+    "stock": 28
+  },
+  {
+    "id": 33,
+    "title": "Libro de prueba 030",
+    "author": "Autor de prueba 30",
+    "genre": "Novela histórica",
+    "year": 1979,
+    "stock_id": "STK-033",
+    "stock": 29
+  },
+  {
+    "id": 34,
+    "title": "Libro de prueba 031",
+    "author": "Autor de prueba 31",
+    "genre": "Ficción",
+    "year": 1980,
+    "stock_id": "STK-034",
+    "stock": 30
+  },
+  {
+    "id": 35,
+    "title": "Libro de prueba 032",
+    "author": "Autor de prueba 32",
+    "genre": "Ciencia ficción",
+    "year": 1981,
+    "stock_id": "STK-035",
+    "stock": 31
+  },
+  {
+    "id": 36,
+    "title": "Libro de prueba 033",
+    "author": "Autor de prueba 33",
+    "genre": "Fantasía",
+    "year": 1982,
+    "stock_id": "STK-036",
+    "stock": 32
+  },
+  {
+    "id": 37,
+    "title": "Libro de prueba 034",
+    "author": "Autor de prueba 34",
+    "genre": "Historia",
+    "year": 1983,
+    "stock_id": "STK-037",
+    "stock": 33
+  },
+  {
+    "id": 38,
+    "title": "Libro de prueba 035",
+    "author": "Autor de prueba 35",
+    "genre": "Misterio",
+    "year": 1984,
+    "stock_id": "STK-038",
+    "stock": 34
+  },
+  {
+    "id": 39,
+    "title": "Libro de prueba 036",
+    "author": "Autor de prueba 36",
+    "genre": "Poesía",
+    "year": 1985,
+    "stock_id": "STK-039",
+    "stock": 35
+  },
+  {
+    "id": 40,
+    "title": "Libro de prueba 037",
+    "author": "Autor de prueba 37",
+    "genre": "Aventura",
+    "year": 1986,
+    "stock_id": "STK-040",
+    "stock": 36
+  },
+  {
+    "id": 41,
+    "title": "Libro de prueba 038",
+    "author": "Autor de prueba 38",
+    "genre": "Biografía",
+    "year": 1987,
+    "stock_id": "STK-041",
+    "stock": 37
+  },
+  {
+    "id": 42,
+    "title": "Libro de prueba 039",
+    "author": "Autor de prueba 39",
+    "genre": "Ensayo",
+    "year": 1988,
+    "stock_id": "STK-042",
+    "stock": 38
+  },
+  {
+    "id": 43,
+    "title": "Libro de prueba 040",
+    "author": "Autor de prueba 40",
+    "genre": "Novela histórica",
+    "year": 1989,
+    "stock_id": "STK-043",
+    "stock": 39
+  },
+  {
+    "id": 44,
+    "title": "Libro de prueba 041",
+    "author": "Autor de prueba 41",
+    "genre": "Ficción",
+    "year": 1990,
+    "stock_id": "STK-044",
+    "stock": 40
+  },
+  {
+    "id": 45,
+    "title": "Libro de prueba 042",
+    "author": "Autor de prueba 42",
+    "genre": "Ciencia ficción",
+    "year": 1991,
+    "stock_id": "STK-045",
+    "stock": 0
+  },
+  {
+    "id": 46,
+    "title": "Libro de prueba 043",
+    "author": "Autor de prueba 43",
+    "genre": "Fantasía",
+    "year": 1992,
+    "stock_id": "STK-046",
+    "stock": 1
+  },
+  {
+    "id": 47,
+    "title": "Libro de prueba 044",
+    "author": "Autor de prueba 44",
+    "genre": "Historia",
+    "year": 1993,
+    "stock_id": "STK-047",
+    "stock": 2
+  },
+  {
+    "id": 48,
+    "title": "Libro de prueba 045",
+    "author": "Autor de prueba 45",
+    "genre": "Misterio",
+    "year": 1994,
+    "stock_id": "STK-048",
+    "stock": 3
+  },
+  {
+    "id": 49,
+    "title": "Libro de prueba 046",
+    "author": "Autor de prueba 46",
+    "genre": "Poesía",
+    "year": 1995,
+    "stock_id": "STK-049",
+    "stock": 4
+  },
+  {
+    "id": 50,
+    "title": "Libro de prueba 047",
+    "author": "Autor de prueba 47",
+    "genre": "Aventura",
+    "year": 1996,
+    "stock_id": "STK-050",
+    "stock": 5
+  },
+  {
+    "id": 51,
+    "title": "Libro de prueba 048",
+    "author": "Autor de prueba 48",
+    "genre": "Biografía",
+    "year": 1997,
+    "stock_id": "STK-051",
+    "stock": 6
+  },
+  {
+    "id": 52,
+    "title": "Libro de prueba 049",
+    "author": "Autor de prueba 49",
+    "genre": "Ensayo",
+    "year": 1998,
+    "stock_id": "STK-052",
+    "stock": 7
+  },
+  {
+    "id": 53,
+    "title": "Libro de prueba 050",
+    "author": "Autor de prueba 50",
+    "genre": "Novela histórica",
+    "year": 1999,
+    "stock_id": "STK-053",
+    "stock": 8
+  },
+  {
+    "id": 54,
+    "title": "Libro de prueba 051",
+    "author": "Autor de prueba 01",
+    "genre": "Ficción",
+    "year": 2000,
+    "stock_id": "STK-054",
+    "stock": 9
+  },
+  {
+    "id": 55,
+    "title": "Libro de prueba 052",
+    "author": "Autor de prueba 02",
+    "genre": "Ciencia ficción",
+    "year": 2001,
+    "stock_id": "STK-055",
+    "stock": 10
+  },
+  {
+    "id": 56,
+    "title": "Libro de prueba 053",
+    "author": "Autor de prueba 03",
+    "genre": "Fantasía",
+    "year": 2002,
+    "stock_id": "STK-056",
+    "stock": 11
+  },
+  {
+    "id": 57,
+    "title": "Libro de prueba 054",
+    "author": "Autor de prueba 04",
+    "genre": "Historia",
+    "year": 2003,
+    "stock_id": "STK-057",
+    "stock": 12
+  },
+  {
+    "id": 58,
+    "title": "Libro de prueba 055",
+    "author": "Autor de prueba 05",
+    "genre": "Misterio",
+    "year": 2004,
+    "stock_id": "STK-058",
+    "stock": 13
+  },
+  {
+    "id": 59,
+    "title": "Libro de prueba 056",
+    "author": "Autor de prueba 06",
+    "genre": "Poesía",
+    "year": 2005,
+    "stock_id": "STK-059",
+    "stock": 14
+  },
+  {
+    "id": 60,
+    "title": "Libro de prueba 057",
+    "author": "Autor de prueba 07",
+    "genre": "Aventura",
+    "year": 2006,
+    "stock_id": "STK-060",
+    "stock": 15
+  },
+  {
+    "id": 61,
+    "title": "Libro de prueba 058",
+    "author": "Autor de prueba 08",
+    "genre": "Biografía",
+    "year": 2007,
+    "stock_id": "STK-061",
+    "stock": 16
+  },
+  {
+    "id": 62,
+    "title": "Libro de prueba 059",
+    "author": "Autor de prueba 09",
+    "genre": "Ensayo",
+    "year": 2008,
+    "stock_id": "STK-062",
+    "stock": 17
+  },
+  {
+    "id": 63,
+    "title": "Libro de prueba 060",
+    "author": "Autor de prueba 10",
+    "genre": "Novela histórica",
+    "year": 2009,
+    "stock_id": "STK-063",
+    "stock": 18
+  },
+  {
+    "id": 64,
+    "title": "Libro de prueba 061",
+    "author": "Autor de prueba 11",
+    "genre": "Ficción",
+    "year": 2010,
+    "stock_id": "STK-064",
+    "stock": 19
+  },
+  {
+    "id": 65,
+    "title": "Libro de prueba 062",
+    "author": "Autor de prueba 12",
+    "genre": "Ciencia ficción",
+    "year": 2011,
+    "stock_id": "STK-065",
+    "stock": 20
+  },
+  {
+    "id": 66,
+    "title": "Libro de prueba 063",
+    "author": "Autor de prueba 13",
+    "genre": "Fantasía",
+    "year": 2012,
+    "stock_id": "STK-066",
+    "stock": 21
+  },
+  {
+    "id": 67,
+    "title": "Libro de prueba 064",
+    "author": "Autor de prueba 14",
+    "genre": "Historia",
+    "year": 2013,
+    "stock_id": "STK-067",
+    "stock": 22
+  },
+  {
+    "id": 68,
+    "title": "Libro de prueba 065",
+    "author": "Autor de prueba 15",
+    "genre": "Misterio",
+    "year": 2014,
+    "stock_id": "STK-068",
+    "stock": 23
+  },
+  {
+    "id": 69,
+    "title": "Libro de prueba 066",
+    "author": "Autor de prueba 16",
+    "genre": "Poesía",
+    "year": 2015,
+    "stock_id": "STK-069",
+    "stock": 24
+  },
+  {
+    "id": 70,
+    "title": "Libro de prueba 067",
+    "author": "Autor de prueba 17",
+    "genre": "Aventura",
+    "year": 2016,
+    "stock_id": "STK-070",
+    "stock": 25
+  },
+  {
+    "id": 71,
+    "title": "Libro de prueba 068",
+    "author": "Autor de prueba 18",
+    "genre": "Biografía",
+    "year": 2017,
+    "stock_id": "STK-071",
+    "stock": 26
+  },
+  {
+    "id": 72,
+    "title": "Libro de prueba 069",
+    "author": "Autor de prueba 19",
+    "genre": "Ensayo",
+    "year": 2018,
+    "stock_id": "STK-072",
+    "stock": 27
+  },
+  {
+    "id": 73,
+    "title": "Libro de prueba 070",
+    "author": "Autor de prueba 20",
+    "genre": "Novela histórica",
+    "year": 2019,
+    "stock_id": "STK-073",
+    "stock": 28
+  },
+  {
+    "id": 74,
+    "title": "Libro de prueba 071",
+    "author": "Autor de prueba 21",
+    "genre": "Ficción",
+    "year": 2020,
+    "stock_id": "STK-074",
+    "stock": 29
+  },
+  {
+    "id": 75,
+    "title": "Libro de prueba 072",
+    "author": "Autor de prueba 22",
+    "genre": "Ciencia ficción",
+    "year": 2021,
+    "stock_id": "STK-075",
+    "stock": 30
+  },
+  {
+    "id": 76,
+    "title": "Libro de prueba 073",
+    "author": "Autor de prueba 23",
+    "genre": "Fantasía",
+    "year": 2022,
+    "stock_id": "STK-076",
+    "stock": 31
+  },
+  {
+    "id": 77,
+    "title": "Libro de prueba 074",
+    "author": "Autor de prueba 24",
+    "genre": "Historia",
+    "year": 2023,
+    "stock_id": "STK-077",
+    "stock": 32
+  },
+  {
+    "id": 78,
+    "title": "Libro de prueba 075",
+    "author": "Autor de prueba 25",
+    "genre": "Misterio",
+    "year": 2024,
+    "stock_id": "STK-078",
+    "stock": 33
+  },
+  {
+    "id": 79,
+    "title": "Libro de prueba 076",
+    "author": "Autor de prueba 26",
+    "genre": "Poesía",
+    "year": 2025,
+    "stock_id": "STK-079",
+    "stock": 34
+  },
+  {
+    "id": 80,
+    "title": "Libro de prueba 077",
+    "author": "Autor de prueba 27",
+    "genre": "Aventura",
+    "year": 2026,
+    "stock_id": "STK-080",
+    "stock": 35
+  },
+  {
+    "id": 81,
+    "title": "Libro de prueba 078",
+    "author": "Autor de prueba 28",
+    "genre": "Biografía",
+    "year": 1950,
+    "stock_id": "STK-081",
+    "stock": 36
+  },
+  {
+    "id": 82,
+    "title": "Libro de prueba 079",
+    "author": "Autor de prueba 29",
+    "genre": "Ensayo",
+    "year": 1951,
+    "stock_id": "STK-082",
+    "stock": 37
+  },
+  {
+    "id": 83,
+    "title": "Libro de prueba 080",
+    "author": "Autor de prueba 30",
+    "genre": "Novela histórica",
+    "year": 1952,
+    "stock_id": "STK-083",
+    "stock": 38
+  },
+  {
+    "id": 84,
+    "title": "Libro de prueba 081",
+    "author": "Autor de prueba 31",
+    "genre": "Ficción",
+    "year": 1953,
+    "stock_id": "STK-084",
+    "stock": 39
+  },
+  {
+    "id": 85,
+    "title": "Libro de prueba 082",
+    "author": "Autor de prueba 32",
+    "genre": "Ciencia ficción",
+    "year": 1954,
+    "stock_id": "STK-085",
+    "stock": 40
+  },
+  {
+    "id": 86,
+    "title": "Libro de prueba 083",
+    "author": "Autor de prueba 33",
+    "genre": "Fantasía",
+    "year": 1955,
+    "stock_id": "STK-086",
+    "stock": 0
+  },
+  {
+    "id": 87,
+    "title": "Libro de prueba 084",
+    "author": "Autor de prueba 34",
+    "genre": "Historia",
+    "year": 1956,
+    "stock_id": "STK-087",
+    "stock": 1
+  },
+  {
+    "id": 88,
+    "title": "Libro de prueba 085",
+    "author": "Autor de prueba 35",
+    "genre": "Misterio",
+    "year": 1957,
+    "stock_id": "STK-088",
+    "stock": 2
+  },
+  {
+    "id": 89,
+    "title": "Libro de prueba 086",
+    "author": "Autor de prueba 36",
+    "genre": "Poesía",
+    "year": 1958,
+    "stock_id": "STK-089",
+    "stock": 3
+  },
+  {
+    "id": 90,
+    "title": "Libro de prueba 087",
+    "author": "Autor de prueba 37",
+    "genre": "Aventura",
+    "year": 1959,
+    "stock_id": "STK-090",
+    "stock": 4
+  },
+  {
+    "id": 91,
+    "title": "Libro de prueba 088",
+    "author": "Autor de prueba 38",
+    "genre": "Biografía",
+    "year": 1960,
+    "stock_id": "STK-091",
+    "stock": 5
+  },
+  {
+    "id": 92,
+    "title": "Libro de prueba 089",
+    "author": "Autor de prueba 39",
+    "genre": "Ensayo",
+    "year": 1961,
+    "stock_id": "STK-092",
+    "stock": 6
+  },
+  {
+    "id": 93,
+    "title": "Libro de prueba 090",
+    "author": "Autor de prueba 40",
+    "genre": "Novela histórica",
+    "year": 1962,
+    "stock_id": "STK-093",
+    "stock": 7
+  },
+  {
+    "id": 94,
+    "title": "Libro de prueba 091",
+    "author": "Autor de prueba 41",
+    "genre": "Ficción",
+    "year": 1963,
+    "stock_id": "STK-094",
+    "stock": 8
+  },
+  {
+    "id": 95,
+    "title": "Libro de prueba 092",
+    "author": "Autor de prueba 42",
+    "genre": "Ciencia ficción",
+    "year": 1964,
+    "stock_id": "STK-095",
+    "stock": 9
+  },
+  {
+    "id": 96,
+    "title": "Libro de prueba 093",
+    "author": "Autor de prueba 43",
+    "genre": "Fantasía",
+    "year": 1965,
+    "stock_id": "STK-096",
+    "stock": 10
+  },
+  {
+    "id": 97,
+    "title": "Libro de prueba 094",
+    "author": "Autor de prueba 44",
+    "genre": "Historia",
+    "year": 1966,
+    "stock_id": "STK-097",
+    "stock": 11
+  },
+  {
+    "id": 98,
+    "title": "Libro de prueba 095",
+    "author": "Autor de prueba 45",
+    "genre": "Misterio",
+    "year": 1967,
+    "stock_id": "STK-098",
+    "stock": 12
+  },
+  {
+    "id": 99,
+    "title": "Libro de prueba 096",
+    "author": "Autor de prueba 46",
+    "genre": "Poesía",
+    "year": 1968,
+    "stock_id": "STK-099",
+    "stock": 13
+  },
+  {
+    "id": 100,
+    "title": "Libro de prueba 097",
+    "author": "Autor de prueba 47",
+    "genre": "Aventura",
+    "year": 1969,
+    "stock_id": "STK-100",
+    "stock": 14
+  },
+  {
+    "id": 101,
+    "title": "Libro de prueba 098",
+    "author": "Autor de prueba 48",
+    "genre": "Biografía",
+    "year": 1970,
+    "stock_id": "STK-101",
+    "stock": 15
+  },
+  {
+    "id": 102,
+    "title": "Libro de prueba 099",
+    "author": "Autor de prueba 49",
+    "genre": "Ensayo",
+    "year": 1971,
+    "stock_id": "STK-102",
+    "stock": 16
+  },
+  {
+    "id": 103,
+    "title": "Libro de prueba 100",
+    "author": "Autor de prueba 50",
+    "genre": "Novela histórica",
+    "year": 1972,
+    "stock_id": "STK-103",
+    "stock": 17
+  },
+  {
+    "id": 104,
+    "title": "Libro de prueba 101",
+    "author": "Autor de prueba 01",
+    "genre": "Ficción",
+    "year": 1973,
+    "stock_id": "STK-104",
+    "stock": 18
+  },
+  {
+    "id": 105,
+    "title": "Libro de prueba 102",
+    "author": "Autor de prueba 02",
+    "genre": "Ciencia ficción",
+    "year": 1974,
+    "stock_id": "STK-105",
+    "stock": 19
+  },
+  {
+    "id": 106,
+    "title": "Libro de prueba 103",
+    "author": "Autor de prueba 03",
+    "genre": "Fantasía",
+    "year": 1975,
+    "stock_id": "STK-106",
+    "stock": 20
+  },
+  {
+    "id": 107,
+    "title": "Libro de prueba 104",
+    "author": "Autor de prueba 04",
+    "genre": "Historia",
+    "year": 1976,
+    "stock_id": "STK-107",
+    "stock": 21
+  },
+  {
+    "id": 108,
+    "title": "Libro de prueba 105",
+    "author": "Autor de prueba 05",
+    "genre": "Misterio",
+    "year": 1977,
+    "stock_id": "STK-108",
+    "stock": 22
+  },
+  {
+    "id": 109,
+    "title": "Libro de prueba 106",
+    "author": "Autor de prueba 06",
+    "genre": "Poesía",
+    "year": 1978,
+    "stock_id": "STK-109",
+    "stock": 23
+  },
+  {
+    "id": 110,
+    "title": "Libro de prueba 107",
+    "author": "Autor de prueba 07",
+    "genre": "Aventura",
+    "year": 1979,
+    "stock_id": "STK-110",
+    "stock": 24
+  },
+  {
+    "id": 111,
+    "title": "Libro de prueba 108",
+    "author": "Autor de prueba 08",
+    "genre": "Biografía",
+    "year": 1980,
+    "stock_id": "STK-111",
+    "stock": 25
+  },
+  {
+    "id": 112,
+    "title": "Libro de prueba 109",
+    "author": "Autor de prueba 09",
+    "genre": "Ensayo",
+    "year": 1981,
+    "stock_id": "STK-112",
+    "stock": 26
+  },
+  {
+    "id": 113,
+    "title": "Libro de prueba 110",
+    "author": "Autor de prueba 10",
+    "genre": "Novela histórica",
+    "year": 1982,
+    "stock_id": "STK-113",
+    "stock": 27
+  },
+  {
+    "id": 114,
+    "title": "Libro de prueba 111",
+    "author": "Autor de prueba 11",
+    "genre": "Ficción",
+    "year": 1983,
+    "stock_id": "STK-114",
+    "stock": 28
+  },
+  {
+    "id": 115,
+    "title": "Libro de prueba 112",
+    "author": "Autor de prueba 12",
+    "genre": "Ciencia ficción",
+    "year": 1984,
+    "stock_id": "STK-115",
+    "stock": 29
+  },
+  {
+    "id": 116,
+    "title": "Libro de prueba 113",
+    "author": "Autor de prueba 13",
+    "genre": "Fantasía",
+    "year": 1985,
+    "stock_id": "STK-116",
+    "stock": 30
+  },
+  {
+    "id": 117,
+    "title": "Libro de prueba 114",
+    "author": "Autor de prueba 14",
+    "genre": "Historia",
+    "year": 1986,
+    "stock_id": "STK-117",
+    "stock": 31
+  },
+  {
+    "id": 118,
+    "title": "Libro de prueba 115",
+    "author": "Autor de prueba 15",
+    "genre": "Misterio",
+    "year": 1987,
+    "stock_id": "STK-118",
+    "stock": 32
+  },
+  {
+    "id": 119,
+    "title": "Libro de prueba 116",
+    "author": "Autor de prueba 16",
+    "genre": "Poesía",
+    "year": 1988,
+    "stock_id": "STK-119",
+    "stock": 33
+  },
+  {
+    "id": 120,
+    "title": "Libro de prueba 117",
+    "author": "Autor de prueba 17",
+    "genre": "Aventura",
+    "year": 1989,
+    "stock_id": "STK-120",
+    "stock": 34
+  },
+  {
+    "id": 121,
+    "title": "Libro de prueba 118",
+    "author": "Autor de prueba 18",
+    "genre": "Biografía",
+    "year": 1990,
+    "stock_id": "STK-121",
+    "stock": 35
+  },
+  {
+    "id": 122,
+    "title": "Libro de prueba 119",
+    "author": "Autor de prueba 19",
+    "genre": "Ensayo",
+    "year": 1991,
+    "stock_id": "STK-122",
+    "stock": 36
+  },
+  {
+    "id": 123,
+    "title": "Libro de prueba 120",
+    "author": "Autor de prueba 20",
+    "genre": "Novela histórica",
+    "year": 1992,
+    "stock_id": "STK-123",
+    "stock": 37
+  },
+  {
+    "id": 124,
+    "title": "Libro de prueba 121",
+    "author": "Autor de prueba 21",
+    "genre": "Ficción",
+    "year": 1993,
+    "stock_id": "STK-124",
+    "stock": 38
+  },
+  {
+    "id": 125,
+    "title": "Libro de prueba 122",
+    "author": "Autor de prueba 22",
+    "genre": "Ciencia ficción",
+    "year": 1994,
+    "stock_id": "STK-125",
+    "stock": 39
+  },
+  {
+    "id": 126,
+    "title": "Libro de prueba 123",
+    "author": "Autor de prueba 23",
+    "genre": "Fantasía",
+    "year": 1995,
+    "stock_id": "STK-126",
+    "stock": 40
+  },
+  {
+    "id": 127,
+    "title": "Libro de prueba 124",
+    "author": "Autor de prueba 24",
+    "genre": "Historia",
+    "year": 1996,
+    "stock_id": "STK-127",
+    "stock": 0
+  },
+  {
+    "id": 128,
+    "title": "Libro de prueba 125",
+    "author": "Autor de prueba 25",
+    "genre": "Misterio",
+    "year": 1997,
+    "stock_id": "STK-128",
+    "stock": 1
+  },
+  {
+    "id": 129,
+    "title": "Libro de prueba 126",
+    "author": "Autor de prueba 26",
+    "genre": "Poesía",
+    "year": 1998,
+    "stock_id": "STK-129",
+    "stock": 2
+  },
+  {
+    "id": 130,
+    "title": "Libro de prueba 127",
+    "author": "Autor de prueba 27",
+    "genre": "Aventura",
+    "year": 1999,
+    "stock_id": "STK-130",
+    "stock": 3
+  },
+  {
+    "id": 131,
+    "title": "Libro de prueba 128",
+    "author": "Autor de prueba 28",
+    "genre": "Biografía",
+    "year": 2000,
+    "stock_id": "STK-131",
+    "stock": 4
+  },
+  {
+    "id": 132,
+    "title": "Libro de prueba 129",
+    "author": "Autor de prueba 29",
+    "genre": "Ensayo",
+    "year": 2001,
+    "stock_id": "STK-132",
+    "stock": 5
+  },
+  {
+    "id": 133,
+    "title": "Libro de prueba 130",
+    "author": "Autor de prueba 30",
+    "genre": "Novela histórica",
+    "year": 2002,
+    "stock_id": "STK-133",
+    "stock": 6
+  },
+  {
+    "id": 134,
+    "title": "Libro de prueba 131",
+    "author": "Autor de prueba 31",
+    "genre": "Ficción",
+    "year": 2003,
+    "stock_id": "STK-134",
+    "stock": 7
+  },
+  {
+    "id": 135,
+    "title": "Libro de prueba 132",
+    "author": "Autor de prueba 32",
+    "genre": "Ciencia ficción",
+    "year": 2004,
+    "stock_id": "STK-135",
+    "stock": 8
+  },
+  {
+    "id": 136,
+    "title": "Libro de prueba 133",
+    "author": "Autor de prueba 33",
+    "genre": "Fantasía",
+    "year": 2005,
+    "stock_id": "STK-136",
+    "stock": 9
+  },
+  {
+    "id": 137,
+    "title": "Libro de prueba 134",
+    "author": "Autor de prueba 34",
+    "genre": "Historia",
+    "year": 2006,
+    "stock_id": "STK-137",
+    "stock": 10
+  },
+  {
+    "id": 138,
+    "title": "Libro de prueba 135",
+    "author": "Autor de prueba 35",
+    "genre": "Misterio",
+    "year": 2007,
+    "stock_id": "STK-138",
+    "stock": 11
+  },
+  {
+    "id": 139,
+    "title": "Libro de prueba 136",
+    "author": "Autor de prueba 36",
+    "genre": "Poesía",
+    "year": 2008,
+    "stock_id": "STK-139",
+    "stock": 12
+  },
+  {
+    "id": 140,
+    "title": "Libro de prueba 137",
+    "author": "Autor de prueba 37",
+    "genre": "Aventura",
+    "year": 2009,
+    "stock_id": "STK-140",
+    "stock": 13
+  },
+  {
+    "id": 141,
+    "title": "Libro de prueba 138",
+    "author": "Autor de prueba 38",
+    "genre": "Biografía",
+    "year": 2010,
+    "stock_id": "STK-141",
+    "stock": 14
+  },
+  {
+    "id": 142,
+    "title": "Libro de prueba 139",
+    "author": "Autor de prueba 39",
+    "genre": "Ensayo",
+    "year": 2011,
+    "stock_id": "STK-142",
+    "stock": 15
+  },
+  {
+    "id": 143,
+    "title": "Libro de prueba 140",
+    "author": "Autor de prueba 40",
+    "genre": "Novela histórica",
+    "year": 2012,
+    "stock_id": "STK-143",
+    "stock": 16
+  },
+  {
+    "id": 144,
+    "title": "Libro de prueba 141",
+    "author": "Autor de prueba 41",
+    "genre": "Ficción",
+    "year": 2013,
+    "stock_id": "STK-144",
+    "stock": 17
+  },
+  {
+    "id": 145,
+    "title": "Libro de prueba 142",
+    "author": "Autor de prueba 42",
+    "genre": "Ciencia ficción",
+    "year": 2014,
+    "stock_id": "STK-145",
+    "stock": 18
+  },
+  {
+    "id": 146,
+    "title": "Libro de prueba 143",
+    "author": "Autor de prueba 43",
+    "genre": "Fantasía",
+    "year": 2015,
+    "stock_id": "STK-146",
+    "stock": 19
+  },
+  {
+    "id": 147,
+    "title": "Libro de prueba 144",
+    "author": "Autor de prueba 44",
+    "genre": "Historia",
+    "year": 2016,
+    "stock_id": "STK-147",
+    "stock": 20
+  },
+  {
+    "id": 148,
+    "title": "Libro de prueba 145",
+    "author": "Autor de prueba 45",
+    "genre": "Misterio",
+    "year": 2017,
+    "stock_id": "STK-148",
+    "stock": 21
+  },
+  {
+    "id": 149,
+    "title": "Libro de prueba 146",
+    "author": "Autor de prueba 46",
+    "genre": "Poesía",
+    "year": 2018,
+    "stock_id": "STK-149",
+    "stock": 22
+  },
+  {
+    "id": 150,
+    "title": "Libro de prueba 147",
+    "author": "Autor de prueba 47",
+    "genre": "Aventura",
+    "year": 2019,
+    "stock_id": "STK-150",
+    "stock": 23
+  },
+  {
+    "id": 151,
+    "title": "Libro de prueba 148",
+    "author": "Autor de prueba 48",
+    "genre": "Biografía",
+    "year": 2020,
+    "stock_id": "STK-151",
+    "stock": 24
+  },
+  {
+    "id": 152,
+    "title": "Libro de prueba 149",
+    "author": "Autor de prueba 49",
+    "genre": "Ensayo",
+    "year": 2021,
+    "stock_id": "STK-152",
+    "stock": 25
+  },
+  {
+    "id": 153,
+    "title": "Libro de prueba 150",
+    "author": "Autor de prueba 50",
+    "genre": "Novela histórica",
+    "year": 2022,
+    "stock_id": "STK-153",
+    "stock": 26
+  },
+  {
+    "id": 154,
+    "title": "Libro de prueba 151",
+    "author": "Autor de prueba 01",
+    "genre": "Ficción",
+    "year": 2023,
+    "stock_id": "STK-154",
+    "stock": 27
+  },
+  {
+    "id": 155,
+    "title": "Libro de prueba 152",
+    "author": "Autor de prueba 02",
+    "genre": "Ciencia ficción",
+    "year": 2024,
+    "stock_id": "STK-155",
+    "stock": 28
+  },
+  {
+    "id": 156,
+    "title": "Libro de prueba 153",
+    "author": "Autor de prueba 03",
+    "genre": "Fantasía",
+    "year": 2025,
+    "stock_id": "STK-156",
+    "stock": 29
+  },
+  {
+    "id": 157,
+    "title": "Libro de prueba 154",
+    "author": "Autor de prueba 04",
+    "genre": "Historia",
+    "year": 2026,
+    "stock_id": "STK-157",
+    "stock": 30
+  },
+  {
+    "id": 158,
+    "title": "Libro de prueba 155",
+    "author": "Autor de prueba 05",
+    "genre": "Misterio",
+    "year": 1950,
+    "stock_id": "STK-158",
+    "stock": 31
+  },
+  {
+    "id": 159,
+    "title": "Libro de prueba 156",
+    "author": "Autor de prueba 06",
+    "genre": "Poesía",
+    "year": 1951,
+    "stock_id": "STK-159",
+    "stock": 32
+  },
+  {
+    "id": 160,
+    "title": "Libro de prueba 157",
+    "author": "Autor de prueba 07",
+    "genre": "Aventura",
+    "year": 1952,
+    "stock_id": "STK-160",
+    "stock": 33
+  },
+  {
+    "id": 161,
+    "title": "Libro de prueba 158",
+    "author": "Autor de prueba 08",
+    "genre": "Biografía",
+    "year": 1953,
+    "stock_id": "STK-161",
+    "stock": 34
+  },
+  {
+    "id": 162,
+    "title": "Libro de prueba 159",
+    "author": "Autor de prueba 09",
+    "genre": "Ensayo",
+    "year": 1954,
+    "stock_id": "STK-162",
+    "stock": 35
+  },
+  {
+    "id": 163,
+    "title": "Libro de prueba 160",
+    "author": "Autor de prueba 10",
+    "genre": "Novela histórica",
+    "year": 1955,
+    "stock_id": "STK-163",
+    "stock": 36
+  },
+  {
+    "id": 164,
+    "title": "Libro de prueba 161",
+    "author": "Autor de prueba 11",
+    "genre": "Ficción",
+    "year": 1956,
+    "stock_id": "STK-164",
+    "stock": 37
+  },
+  {
+    "id": 165,
+    "title": "Libro de prueba 162",
+    "author": "Autor de prueba 12",
+    "genre": "Ciencia ficción",
+    "year": 1957,
+    "stock_id": "STK-165",
+    "stock": 38
+  },
+  {
+    "id": 166,
+    "title": "Libro de prueba 163",
+    "author": "Autor de prueba 13",
+    "genre": "Fantasía",
+    "year": 1958,
+    "stock_id": "STK-166",
+    "stock": 39
+  },
+  {
+    "id": 167,
+    "title": "Libro de prueba 164",
+    "author": "Autor de prueba 14",
+    "genre": "Historia",
+    "year": 1959,
+    "stock_id": "STK-167",
+    "stock": 40
+  },
+  {
+    "id": 168,
+    "title": "Libro de prueba 165",
+    "author": "Autor de prueba 15",
+    "genre": "Misterio",
+    "year": 1960,
+    "stock_id": "STK-168",
+    "stock": 0
+  },
+  {
+    "id": 169,
+    "title": "Libro de prueba 166",
+    "author": "Autor de prueba 16",
+    "genre": "Poesía",
+    "year": 1961,
+    "stock_id": "STK-169",
+    "stock": 1
+  },
+  {
+    "id": 170,
+    "title": "Libro de prueba 167",
+    "author": "Autor de prueba 17",
+    "genre": "Aventura",
+    "year": 1962,
+    "stock_id": "STK-170",
+    "stock": 2
+  },
+  {
+    "id": 171,
+    "title": "Libro de prueba 168",
+    "author": "Autor de prueba 18",
+    "genre": "Biografía",
+    "year": 1963,
+    "stock_id": "STK-171",
+    "stock": 3
+  },
+  {
+    "id": 172,
+    "title": "Libro de prueba 169",
+    "author": "Autor de prueba 19",
+    "genre": "Ensayo",
+    "year": 1964,
+    "stock_id": "STK-172",
+    "stock": 4
+  },
+  {
+    "id": 173,
+    "title": "Libro de prueba 170",
+    "author": "Autor de prueba 20",
+    "genre": "Novela histórica",
+    "year": 1965,
+    "stock_id": "STK-173",
+    "stock": 5
+  },
+  {
+    "id": 174,
+    "title": "Libro de prueba 171",
+    "author": "Autor de prueba 21",
+    "genre": "Ficción",
+    "year": 1966,
+    "stock_id": "STK-174",
+    "stock": 6
+  },
+  {
+    "id": 175,
+    "title": "Libro de prueba 172",
+    "author": "Autor de prueba 22",
+    "genre": "Ciencia ficción",
+    "year": 1967,
+    "stock_id": "STK-175",
+    "stock": 7
+  },
+  {
+    "id": 176,
+    "title": "Libro de prueba 173",
+    "author": "Autor de prueba 23",
+    "genre": "Fantasía",
+    "year": 1968,
+    "stock_id": "STK-176",
+    "stock": 8
+  },
+  {
+    "id": 177,
+    "title": "Libro de prueba 174",
+    "author": "Autor de prueba 24",
+    "genre": "Historia",
+    "year": 1969,
+    "stock_id": "STK-177",
+    "stock": 9
+  },
+  {
+    "id": 178,
+    "title": "Libro de prueba 175",
+    "author": "Autor de prueba 25",
+    "genre": "Misterio",
+    "year": 1970,
+    "stock_id": "STK-178",
+    "stock": 10
+  },
+  {
+    "id": 179,
+    "title": "Libro de prueba 176",
+    "author": "Autor de prueba 26",
+    "genre": "Poesía",
+    "year": 1971,
+    "stock_id": "STK-179",
+    "stock": 11
+  },
+  {
+    "id": 180,
+    "title": "Libro de prueba 177",
+    "author": "Autor de prueba 27",
+    "genre": "Aventura",
+    "year": 1972,
+    "stock_id": "STK-180",
+    "stock": 12
+  },
+  {
+    "id": 181,
+    "title": "Libro de prueba 178",
+    "author": "Autor de prueba 28",
+    "genre": "Biografía",
+    "year": 1973,
+    "stock_id": "STK-181",
+    "stock": 13
+  },
+  {
+    "id": 182,
+    "title": "Libro de prueba 179",
+    "author": "Autor de prueba 29",
+    "genre": "Ensayo",
+    "year": 1974,
+    "stock_id": "STK-182",
+    "stock": 14
+  },
+  {
+    "id": 183,
+    "title": "Libro de prueba 180",
+    "author": "Autor de prueba 30",
+    "genre": "Novela histórica",
+    "year": 1975,
+    "stock_id": "STK-183",
+    "stock": 15
+  },
+  {
+    "id": 184,
+    "title": "Libro de prueba 181",
+    "author": "Autor de prueba 31",
+    "genre": "Ficción",
+    "year": 1976,
+    "stock_id": "STK-184",
+    "stock": 16
+  },
+  {
+    "id": 185,
+    "title": "Libro de prueba 182",
+    "author": "Autor de prueba 32",
+    "genre": "Ciencia ficción",
+    "year": 1977,
+    "stock_id": "STK-185",
+    "stock": 17
+  },
+  {
+    "id": 186,
+    "title": "Libro de prueba 183",
+    "author": "Autor de prueba 33",
+    "genre": "Fantasía",
+    "year": 1978,
+    "stock_id": "STK-186",
+    "stock": 18
+  },
+  {
+    "id": 187,
+    "title": "Libro de prueba 184",
+    "author": "Autor de prueba 34",
+    "genre": "Historia",
+    "year": 1979,
+    "stock_id": "STK-187",
+    "stock": 19
+  },
+  {
+    "id": 188,
+    "title": "Libro de prueba 185",
+    "author": "Autor de prueba 35",
+    "genre": "Misterio",
+    "year": 1980,
+    "stock_id": "STK-188",
+    "stock": 20
+  },
+  {
+    "id": 189,
+    "title": "Libro de prueba 186",
+    "author": "Autor de prueba 36",
+    "genre": "Poesía",
+    "year": 1981,
+    "stock_id": "STK-189",
+    "stock": 21
+  },
+  {
+    "id": 190,
+    "title": "Libro de prueba 187",
+    "author": "Autor de prueba 37",
+    "genre": "Aventura",
+    "year": 1982,
+    "stock_id": "STK-190",
+    "stock": 22
+  },
+  {
+    "id": 191,
+    "title": "Libro de prueba 188",
+    "author": "Autor de prueba 38",
+    "genre": "Biografía",
+    "year": 1983,
+    "stock_id": "STK-191",
+    "stock": 23
+  },
+  {
+    "id": 192,
+    "title": "Libro de prueba 189",
+    "author": "Autor de prueba 39",
+    "genre": "Ensayo",
+    "year": 1984,
+    "stock_id": "STK-192",
+    "stock": 24
+  },
+  {
+    "id": 193,
+    "title": "Libro de prueba 190",
+    "author": "Autor de prueba 40",
+    "genre": "Novela histórica",
+    "year": 1985,
+    "stock_id": "STK-193",
+    "stock": 25
+  },
+  {
+    "id": 194,
+    "title": "Libro de prueba 191",
+    "author": "Autor de prueba 41",
+    "genre": "Ficción",
+    "year": 1986,
+    "stock_id": "STK-194",
+    "stock": 26
+  },
+  {
+    "id": 195,
+    "title": "Libro de prueba 192",
+    "author": "Autor de prueba 42",
+    "genre": "Ciencia ficción",
+    "year": 1987,
+    "stock_id": "STK-195",
+    "stock": 27
+  },
+  {
+    "id": 196,
+    "title": "Libro de prueba 193",
+    "author": "Autor de prueba 43",
+    "genre": "Fantasía",
+    "year": 1988,
+    "stock_id": "STK-196",
+    "stock": 28
+  },
+  {
+    "id": 197,
+    "title": "Libro de prueba 194",
+    "author": "Autor de prueba 44",
+    "genre": "Historia",
+    "year": 1989,
+    "stock_id": "STK-197",
+    "stock": 29
+  },
+  {
+    "id": 198,
+    "title": "Libro de prueba 195",
+    "author": "Autor de prueba 45",
+    "genre": "Misterio",
+    "year": 1990,
+    "stock_id": "STK-198",
+    "stock": 30
+  },
+  {
+    "id": 199,
+    "title": "Libro de prueba 196",
+    "author": "Autor de prueba 46",
+    "genre": "Poesía",
+    "year": 1991,
+    "stock_id": "STK-199",
+    "stock": 31
+  },
+  {
+    "id": 200,
+    "title": "Libro de prueba 197",
+    "author": "Autor de prueba 47",
+    "genre": "Aventura",
+    "year": 1992,
+    "stock_id": "STK-200",
+    "stock": 32
+  },
+  {
+    "id": 201,
+    "title": "Libro de prueba 198",
+    "author": "Autor de prueba 48",
+    "genre": "Biografía",
+    "year": 1993,
+    "stock_id": "STK-201",
+    "stock": 33
+  },
+  {
+    "id": 202,
+    "title": "Libro de prueba 199",
+    "author": "Autor de prueba 49",
+    "genre": "Ensayo",
+    "year": 1994,
+    "stock_id": "STK-202",
+    "stock": 34
+  },
+  {
+    "id": 203,
+    "title": "Libro de prueba 200",
+    "author": "Autor de prueba 50",
+    "genre": "Novela histórica",
+    "year": 1995,
+    "stock_id": "STK-203",
+    "stock": 35
+  },
+  {
+    "id": 204,
+    "title": "Libro de prueba 201",
+    "author": "Autor de prueba 01",
+    "genre": "Ficción",
+    "year": 1996,
+    "stock_id": "STK-204",
+    "stock": 36
+  },
+  {
+    "id": 205,
+    "title": "Libro de prueba 202",
+    "author": "Autor de prueba 02",
+    "genre": "Ciencia ficción",
+    "year": 1997,
+    "stock_id": "STK-205",
+    "stock": 37
+  },
+  {
+    "id": 206,
+    "title": "Libro de prueba 203",
+    "author": "Autor de prueba 03",
+    "genre": "Fantasía",
+    "year": 1998,
+    "stock_id": "STK-206",
+    "stock": 38
+  },
+  {
+    "id": 207,
+    "title": "Libro de prueba 204",
+    "author": "Autor de prueba 04",
+    "genre": "Historia",
+    "year": 1999,
+    "stock_id": "STK-207",
+    "stock": 39
+  },
+  {
+    "id": 208,
+    "title": "Libro de prueba 205",
+    "author": "Autor de prueba 05",
+    "genre": "Misterio",
+    "year": 2000,
+    "stock_id": "STK-208",
+    "stock": 40
+  },
+  {
+    "id": 209,
+    "title": "Libro de prueba 206",
+    "author": "Autor de prueba 06",
+    "genre": "Poesía",
+    "year": 2001,
+    "stock_id": "STK-209",
+    "stock": 0
+  },
+  {
+    "id": 210,
+    "title": "Libro de prueba 207",
+    "author": "Autor de prueba 07",
+    "genre": "Aventura",
+    "year": 2002,
+    "stock_id": "STK-210",
+    "stock": 1
+  },
+  {
+    "id": 211,
+    "title": "Libro de prueba 208",
+    "author": "Autor de prueba 08",
+    "genre": "Biografía",
+    "year": 2003,
+    "stock_id": "STK-211",
+    "stock": 2
+  },
+  {
+    "id": 212,
+    "title": "Libro de prueba 209",
+    "author": "Autor de prueba 09",
+    "genre": "Ensayo",
+    "year": 2004,
+    "stock_id": "STK-212",
+    "stock": 3
+  },
+  {
+    "id": 213,
+    "title": "Libro de prueba 210",
+    "author": "Autor de prueba 10",
+    "genre": "Novela histórica",
+    "year": 2005,
+    "stock_id": "STK-213",
+    "stock": 4
+  },
+  {
+    "id": 214,
+    "title": "Libro de prueba 211",
+    "author": "Autor de prueba 11",
+    "genre": "Ficción",
+    "year": 2006,
+    "stock_id": "STK-214",
+    "stock": 5
+  },
+  {
+    "id": 215,
+    "title": "Libro de prueba 212",
+    "author": "Autor de prueba 12",
+    "genre": "Ciencia ficción",
+    "year": 2007,
+    "stock_id": "STK-215",
+    "stock": 6
+  },
+  {
+    "id": 216,
+    "title": "Libro de prueba 213",
+    "author": "Autor de prueba 13",
+    "genre": "Fantasía",
+    "year": 2008,
+    "stock_id": "STK-216",
+    "stock": 7
+  },
+  {
+    "id": 217,
+    "title": "Libro de prueba 214",
+    "author": "Autor de prueba 14",
+    "genre": "Historia",
+    "year": 2009,
+    "stock_id": "STK-217",
+    "stock": 8
+  },
+  {
+    "id": 218,
+    "title": "Libro de prueba 215",
+    "author": "Autor de prueba 15",
+    "genre": "Misterio",
+    "year": 2010,
+    "stock_id": "STK-218",
+    "stock": 9
+  },
+  {
+    "id": 219,
+    "title": "Libro de prueba 216",
+    "author": "Autor de prueba 16",
+    "genre": "Poesía",
+    "year": 2011,
+    "stock_id": "STK-219",
+    "stock": 10
+  },
+  {
+    "id": 220,
+    "title": "Libro de prueba 217",
+    "author": "Autor de prueba 17",
+    "genre": "Aventura",
+    "year": 2012,
+    "stock_id": "STK-220",
+    "stock": 11
+  },
+  {
+    "id": 221,
+    "title": "Libro de prueba 218",
+    "author": "Autor de prueba 18",
+    "genre": "Biografía",
+    "year": 2013,
+    "stock_id": "STK-221",
+    "stock": 12
+  },
+  {
+    "id": 222,
+    "title": "Libro de prueba 219",
+    "author": "Autor de prueba 19",
+    "genre": "Ensayo",
+    "year": 2014,
+    "stock_id": "STK-222",
+    "stock": 13
+  },
+  {
+    "id": 223,
+    "title": "Libro de prueba 220",
+    "author": "Autor de prueba 20",
+    "genre": "Novela histórica",
+    "year": 2015,
+    "stock_id": "STK-223",
+    "stock": 14
+  },
+  {
+    "id": 224,
+    "title": "Libro de prueba 221",
+    "author": "Autor de prueba 21",
+    "genre": "Ficción",
+    "year": 2016,
+    "stock_id": "STK-224",
+    "stock": 15
+  },
+  {
+    "id": 225,
+    "title": "Libro de prueba 222",
+    "author": "Autor de prueba 22",
+    "genre": "Ciencia ficción",
+    "year": 2017,
+    "stock_id": "STK-225",
+    "stock": 16
+  },
+  {
+    "id": 226,
+    "title": "Libro de prueba 223",
+    "author": "Autor de prueba 23",
+    "genre": "Fantasía",
+    "year": 2018,
+    "stock_id": "STK-226",
+    "stock": 17
+  },
+  {
+    "id": 227,
+    "title": "Libro de prueba 224",
+    "author": "Autor de prueba 24",
+    "genre": "Historia",
+    "year": 2019,
+    "stock_id": "STK-227",
+    "stock": 18
+  },
+  {
+    "id": 228,
+    "title": "Libro de prueba 225",
+    "author": "Autor de prueba 25",
+    "genre": "Misterio",
+    "year": 2020,
+    "stock_id": "STK-228",
+    "stock": 19
+  },
+  {
+    "id": 229,
+    "title": "Libro de prueba 226",
+    "author": "Autor de prueba 26",
+    "genre": "Poesía",
+    "year": 2021,
+    "stock_id": "STK-229",
+    "stock": 20
+  },
+  {
+    "id": 230,
+    "title": "Libro de prueba 227",
+    "author": "Autor de prueba 27",
+    "genre": "Aventura",
+    "year": 2022,
+    "stock_id": "STK-230",
+    "stock": 21
+  },
+  {
+    "id": 231,
+    "title": "Libro de prueba 228",
+    "author": "Autor de prueba 28",
+    "genre": "Biografía",
+    "year": 2023,
+    "stock_id": "STK-231",
+    "stock": 22
+  },
+  {
+    "id": 232,
+    "title": "Libro de prueba 229",
+    "author": "Autor de prueba 29",
+    "genre": "Ensayo",
+    "year": 2024,
+    "stock_id": "STK-232",
+    "stock": 23
+  },
+  {
+    "id": 233,
+    "title": "Libro de prueba 230",
+    "author": "Autor de prueba 30",
+    "genre": "Novela histórica",
+    "year": 2025,
+    "stock_id": "STK-233",
+    "stock": 24
+  },
+  {
+    "id": 234,
+    "title": "Libro de prueba 231",
+    "author": "Autor de prueba 31",
+    "genre": "Ficción",
+    "year": 2026,
+    "stock_id": "STK-234",
+    "stock": 25
+  },
+  {
+    "id": 235,
+    "title": "Libro de prueba 232",
+    "author": "Autor de prueba 32",
+    "genre": "Ciencia ficción",
+    "year": 1950,
+    "stock_id": "STK-235",
+    "stock": 26
+  },
+  {
+    "id": 236,
+    "title": "Libro de prueba 233",
+    "author": "Autor de prueba 33",
+    "genre": "Fantasía",
+    "year": 1951,
+    "stock_id": "STK-236",
+    "stock": 27
+  },
+  {
+    "id": 237,
+    "title": "Libro de prueba 234",
+    "author": "Autor de prueba 34",
+    "genre": "Historia",
+    "year": 1952,
+    "stock_id": "STK-237",
+    "stock": 28
+  },
+  {
+    "id": 238,
+    "title": "Libro de prueba 235",
+    "author": "Autor de prueba 35",
+    "genre": "Misterio",
+    "year": 1953,
+    "stock_id": "STK-238",
+    "stock": 29
+  },
+  {
+    "id": 239,
+    "title": "Libro de prueba 236",
+    "author": "Autor de prueba 36",
+    "genre": "Poesía",
+    "year": 1954,
+    "stock_id": "STK-239",
+    "stock": 30
+  },
+  {
+    "id": 240,
+    "title": "Libro de prueba 237",
+    "author": "Autor de prueba 37",
+    "genre": "Aventura",
+    "year": 1955,
+    "stock_id": "STK-240",
+    "stock": 31
+  },
+  {
+    "id": 241,
+    "title": "Libro de prueba 238",
+    "author": "Autor de prueba 38",
+    "genre": "Biografía",
+    "year": 1956,
+    "stock_id": "STK-241",
+    "stock": 32
+  },
+  {
+    "id": 242,
+    "title": "Libro de prueba 239",
+    "author": "Autor de prueba 39",
+    "genre": "Ensayo",
+    "year": 1957,
+    "stock_id": "STK-242",
+    "stock": 33
+  },
+  {
+    "id": 243,
+    "title": "Libro de prueba 240",
+    "author": "Autor de prueba 40",
+    "genre": "Novela histórica",
+    "year": 1958,
+    "stock_id": "STK-243",
+    "stock": 34
+  },
+  {
+    "id": 244,
+    "title": "Libro de prueba 241",
+    "author": "Autor de prueba 41",
+    "genre": "Ficción",
+    "year": 1959,
+    "stock_id": "STK-244",
+    "stock": 35
+  },
+  {
+    "id": 245,
+    "title": "Libro de prueba 242",
+    "author": "Autor de prueba 42",
+    "genre": "Ciencia ficción",
+    "year": 1960,
+    "stock_id": "STK-245",
+    "stock": 36
+  },
+  {
+    "id": 246,
+    "title": "Libro de prueba 243",
+    "author": "Autor de prueba 43",
+    "genre": "Fantasía",
+    "year": 1961,
+    "stock_id": "STK-246",
+    "stock": 37
+  },
+  {
+    "id": 247,
+    "title": "Libro de prueba 244",
+    "author": "Autor de prueba 44",
+    "genre": "Historia",
+    "year": 1962,
+    "stock_id": "STK-247",
+    "stock": 38
+  },
+  {
+    "id": 248,
+    "title": "Libro de prueba 245",
+    "author": "Autor de prueba 45",
+    "genre": "Misterio",
+    "year": 1963,
+    "stock_id": "STK-248",
+    "stock": 39
+  },
+  {
+    "id": 249,
+    "title": "Libro de prueba 246",
+    "author": "Autor de prueba 46",
+    "genre": "Poesía",
+    "year": 1964,
+    "stock_id": "STK-249",
+    "stock": 40
+  },
+  {
+    "id": 250,
+    "title": "Libro de prueba 247",
+    "author": "Autor de prueba 47",
+    "genre": "Aventura",
+    "year": 1965,
+    "stock_id": "STK-250",
+    "stock": 0
+  },
+  {
+    "id": 251,
+    "title": "Libro de prueba 248",
+    "author": "Autor de prueba 48",
+    "genre": "Biografía",
+    "year": 1966,
+    "stock_id": "STK-251",
+    "stock": 1
+  },
+  {
+    "id": 252,
+    "title": "Libro de prueba 249",
+    "author": "Autor de prueba 49",
+    "genre": "Ensayo",
+    "year": 1967,
+    "stock_id": "STK-252",
+    "stock": 2
+  },
+  {
+    "id": 253,
+    "title": "Libro de prueba 250",
+    "author": "Autor de prueba 50",
+    "genre": "Novela histórica",
+    "year": 1968,
+    "stock_id": "STK-253",
+    "stock": 3
+  },
+  {
+    "id": 254,
+    "title": "Libro de prueba 251",
+    "author": "Autor de prueba 01",
+    "genre": "Ficción",
+    "year": 1969,
+    "stock_id": "STK-254",
+    "stock": 4
+  },
+  {
+    "id": 255,
+    "title": "Libro de prueba 252",
+    "author": "Autor de prueba 02",
+    "genre": "Ciencia ficción",
+    "year": 1970,
+    "stock_id": "STK-255",
+    "stock": 5
+  },
+  {
+    "id": 256,
+    "title": "Libro de prueba 253",
+    "author": "Autor de prueba 03",
+    "genre": "Fantasía",
+    "year": 1971,
+    "stock_id": "STK-256",
+    "stock": 6
+  },
+  {
+    "id": 257,
+    "title": "Libro de prueba 254",
+    "author": "Autor de prueba 04",
+    "genre": "Historia",
+    "year": 1972,
+    "stock_id": "STK-257",
+    "stock": 7
+  },
+  {
+    "id": 258,
+    "title": "Libro de prueba 255",
+    "author": "Autor de prueba 05",
+    "genre": "Misterio",
+    "year": 1973,
+    "stock_id": "STK-258",
+    "stock": 8
+  },
+  {
+    "id": 259,
+    "title": "Libro de prueba 256",
+    "author": "Autor de prueba 06",
+    "genre": "Poesía",
+    "year": 1974,
+    "stock_id": "STK-259",
+    "stock": 9
+  },
+  {
+    "id": 260,
+    "title": "Libro de prueba 257",
+    "author": "Autor de prueba 07",
+    "genre": "Aventura",
+    "year": 1975,
+    "stock_id": "STK-260",
+    "stock": 10
+  },
+  {
+    "id": 261,
+    "title": "Libro de prueba 258",
+    "author": "Autor de prueba 08",
+    "genre": "Biografía",
+    "year": 1976,
+    "stock_id": "STK-261",
+    "stock": 11
+  },
+  {
+    "id": 262,
+    "title": "Libro de prueba 259",
+    "author": "Autor de prueba 09",
+    "genre": "Ensayo",
+    "year": 1977,
+    "stock_id": "STK-262",
+    "stock": 12
+  },
+  {
+    "id": 263,
+    "title": "Libro de prueba 260",
+    "author": "Autor de prueba 10",
+    "genre": "Novela histórica",
+    "year": 1978,
+    "stock_id": "STK-263",
+    "stock": 13
+  },
+  {
+    "id": 264,
+    "title": "Libro de prueba 261",
+    "author": "Autor de prueba 11",
+    "genre": "Ficción",
+    "year": 1979,
+    "stock_id": "STK-264",
+    "stock": 14
+  },
+  {
+    "id": 265,
+    "title": "Libro de prueba 262",
+    "author": "Autor de prueba 12",
+    "genre": "Ciencia ficción",
+    "year": 1980,
+    "stock_id": "STK-265",
+    "stock": 15
+  },
+  {
+    "id": 266,
+    "title": "Libro de prueba 263",
+    "author": "Autor de prueba 13",
+    "genre": "Fantasía",
+    "year": 1981,
+    "stock_id": "STK-266",
+    "stock": 16
+  },
+  {
+    "id": 267,
+    "title": "Libro de prueba 264",
+    "author": "Autor de prueba 14",
+    "genre": "Historia",
+    "year": 1982,
+    "stock_id": "STK-267",
+    "stock": 17
+  },
+  {
+    "id": 268,
+    "title": "Libro de prueba 265",
+    "author": "Autor de prueba 15",
+    "genre": "Misterio",
+    "year": 1983,
+    "stock_id": "STK-268",
+    "stock": 18
+  },
+  {
+    "id": 269,
+    "title": "Libro de prueba 266",
+    "author": "Autor de prueba 16",
+    "genre": "Poesía",
+    "year": 1984,
+    "stock_id": "STK-269",
+    "stock": 19
+  },
+  {
+    "id": 270,
+    "title": "Libro de prueba 267",
+    "author": "Autor de prueba 17",
+    "genre": "Aventura",
+    "year": 1985,
+    "stock_id": "STK-270",
+    "stock": 20
+  },
+  {
+    "id": 271,
+    "title": "Libro de prueba 268",
+    "author": "Autor de prueba 18",
+    "genre": "Biografía",
+    "year": 1986,
+    "stock_id": "STK-271",
+    "stock": 21
+  },
+  {
+    "id": 272,
+    "title": "Libro de prueba 269",
+    "author": "Autor de prueba 19",
+    "genre": "Ensayo",
+    "year": 1987,
+    "stock_id": "STK-272",
+    "stock": 22
+  },
+  {
+    "id": 273,
+    "title": "Libro de prueba 270",
+    "author": "Autor de prueba 20",
+    "genre": "Novela histórica",
+    "year": 1988,
+    "stock_id": "STK-273",
+    "stock": 23
+  },
+  {
+    "id": 274,
+    "title": "Libro de prueba 271",
+    "author": "Autor de prueba 21",
+    "genre": "Ficción",
+    "year": 1989,
+    "stock_id": "STK-274",
+    "stock": 24
+  },
+  {
+    "id": 275,
+    "title": "Libro de prueba 272",
+    "author": "Autor de prueba 22",
+    "genre": "Ciencia ficción",
+    "year": 1990,
+    "stock_id": "STK-275",
+    "stock": 25
+  },
+  {
+    "id": 276,
+    "title": "Libro de prueba 273",
+    "author": "Autor de prueba 23",
+    "genre": "Fantasía",
+    "year": 1991,
+    "stock_id": "STK-276",
+    "stock": 26
+  },
+  {
+    "id": 277,
+    "title": "Libro de prueba 274",
+    "author": "Autor de prueba 24",
+    "genre": "Historia",
+    "year": 1992,
+    "stock_id": "STK-277",
+    "stock": 27
+  },
+  {
+    "id": 278,
+    "title": "Libro de prueba 275",
+    "author": "Autor de prueba 25",
+    "genre": "Misterio",
+    "year": 1993,
+    "stock_id": "STK-278",
+    "stock": 28
+  },
+  {
+    "id": 279,
+    "title": "Libro de prueba 276",
+    "author": "Autor de prueba 26",
+    "genre": "Poesía",
+    "year": 1994,
+    "stock_id": "STK-279",
+    "stock": 29
+  },
+  {
+    "id": 280,
+    "title": "Libro de prueba 277",
+    "author": "Autor de prueba 27",
+    "genre": "Aventura",
+    "year": 1995,
+    "stock_id": "STK-280",
+    "stock": 30
+  },
+  {
+    "id": 281,
+    "title": "Libro de prueba 278",
+    "author": "Autor de prueba 28",
+    "genre": "Biografía",
+    "year": 1996,
+    "stock_id": "STK-281",
+    "stock": 31
+  },
+  {
+    "id": 282,
+    "title": "Libro de prueba 279",
+    "author": "Autor de prueba 29",
+    "genre": "Ensayo",
+    "year": 1997,
+    "stock_id": "STK-282",
+    "stock": 32
+  },
+  {
+    "id": 283,
+    "title": "Libro de prueba 280",
+    "author": "Autor de prueba 30",
+    "genre": "Novela histórica",
+    "year": 1998,
+    "stock_id": "STK-283",
+    "stock": 33
+  },
+  {
+    "id": 284,
+    "title": "Libro de prueba 281",
+    "author": "Autor de prueba 31",
+    "genre": "Ficción",
+    "year": 1999,
+    "stock_id": "STK-284",
+    "stock": 34
+  },
+  {
+    "id": 285,
+    "title": "Libro de prueba 282",
+    "author": "Autor de prueba 32",
+    "genre": "Ciencia ficción",
+    "year": 2000,
+    "stock_id": "STK-285",
+    "stock": 35
+  },
+  {
+    "id": 286,
+    "title": "Libro de prueba 283",
+    "author": "Autor de prueba 33",
+    "genre": "Fantasía",
+    "year": 2001,
+    "stock_id": "STK-286",
+    "stock": 36
+  },
+  {
+    "id": 287,
+    "title": "Libro de prueba 284",
+    "author": "Autor de prueba 34",
+    "genre": "Historia",
+    "year": 2002,
+    "stock_id": "STK-287",
+    "stock": 37
+  },
+  {
+    "id": 288,
+    "title": "Libro de prueba 285",
+    "author": "Autor de prueba 35",
+    "genre": "Misterio",
+    "year": 2003,
+    "stock_id": "STK-288",
+    "stock": 38
+  },
+  {
+    "id": 289,
+    "title": "Libro de prueba 286",
+    "author": "Autor de prueba 36",
+    "genre": "Poesía",
+    "year": 2004,
+    "stock_id": "STK-289",
+    "stock": 39
+  },
+  {
+    "id": 290,
+    "title": "Libro de prueba 287",
+    "author": "Autor de prueba 37",
+    "genre": "Aventura",
+    "year": 2005,
+    "stock_id": "STK-290",
+    "stock": 40
+  },
+  {
+    "id": 291,
+    "title": "Libro de prueba 288",
+    "author": "Autor de prueba 38",
+    "genre": "Biografía",
+    "year": 2006,
+    "stock_id": "STK-291",
+    "stock": 0
+  },
+  {
+    "id": 292,
+    "title": "Libro de prueba 289",
+    "author": "Autor de prueba 39",
+    "genre": "Ensayo",
+    "year": 2007,
+    "stock_id": "STK-292",
+    "stock": 1
+  },
+  {
+    "id": 293,
+    "title": "Libro de prueba 290",
+    "author": "Autor de prueba 40",
+    "genre": "Novela histórica",
+    "year": 2008,
+    "stock_id": "STK-293",
+    "stock": 2
+  },
+  {
+    "id": 294,
+    "title": "Libro de prueba 291",
+    "author": "Autor de prueba 41",
+    "genre": "Ficción",
+    "year": 2009,
+    "stock_id": "STK-294",
+    "stock": 3
+  },
+  {
+    "id": 295,
+    "title": "Libro de prueba 292",
+    "author": "Autor de prueba 42",
+    "genre": "Ciencia ficción",
+    "year": 2010,
+    "stock_id": "STK-295",
+    "stock": 4
+  },
+  {
+    "id": 296,
+    "title": "Libro de prueba 293",
+    "author": "Autor de prueba 43",
+    "genre": "Fantasía",
+    "year": 2011,
+    "stock_id": "STK-296",
+    "stock": 5
+  },
+  {
+    "id": 297,
+    "title": "Libro de prueba 294",
+    "author": "Autor de prueba 44",
+    "genre": "Historia",
+    "year": 2012,
+    "stock_id": "STK-297",
+    "stock": 6
+  },
+  {
+    "id": 298,
+    "title": "Libro de prueba 295",
+    "author": "Autor de prueba 45",
+    "genre": "Misterio",
+    "year": 2013,
+    "stock_id": "STK-298",
+    "stock": 7
+  },
+  {
+    "id": 299,
+    "title": "Libro de prueba 296",
+    "author": "Autor de prueba 46",
+    "genre": "Poesía",
+    "year": 2014,
+    "stock_id": "STK-299",
+    "stock": 8
+  },
+  {
+    "id": 300,
+    "title": "Libro de prueba 297",
+    "author": "Autor de prueba 47",
+    "genre": "Aventura",
+    "year": 2015,
+    "stock_id": "STK-300",
+    "stock": 9
+  },
+  {
+    "id": 301,
+    "title": "Libro de prueba 298",
+    "author": "Autor de prueba 48",
+    "genre": "Biografía",
+    "year": 2016,
+    "stock_id": "STK-301",
+    "stock": 10
+  },
+  {
+    "id": 302,
+    "title": "Libro de prueba 299",
+    "author": "Autor de prueba 49",
+    "genre": "Ensayo",
+    "year": 2017,
+    "stock_id": "STK-302",
+    "stock": 11
+  },
+  {
+    "id": 303,
+    "title": "Libro de prueba 300",
+    "author": "Autor de prueba 50",
+    "genre": "Novela histórica",
+    "year": 2018,
+    "stock_id": "STK-303",
+    "stock": 12
+  },
+  {
+    "id": 304,
+    "title": "Libro de prueba 301",
+    "author": "Autor de prueba 01",
+    "genre": "Ficción",
+    "year": 2019,
+    "stock_id": "STK-304",
+    "stock": 13
+  },
+  {
+    "id": 305,
+    "title": "Libro de prueba 302",
+    "author": "Autor de prueba 02",
+    "genre": "Ciencia ficción",
+    "year": 2020,
+    "stock_id": "STK-305",
+    "stock": 14
+  },
+  {
+    "id": 306,
+    "title": "Libro de prueba 303",
+    "author": "Autor de prueba 03",
+    "genre": "Fantasía",
+    "year": 2021,
+    "stock_id": "STK-306",
+    "stock": 15
+  },
+  {
+    "id": 307,
+    "title": "Libro de prueba 304",
+    "author": "Autor de prueba 04",
+    "genre": "Historia",
+    "year": 2022,
+    "stock_id": "STK-307",
+    "stock": 16
+  },
+  {
+    "id": 308,
+    "title": "Libro de prueba 305",
+    "author": "Autor de prueba 05",
+    "genre": "Misterio",
+    "year": 2023,
+    "stock_id": "STK-308",
+    "stock": 17
+  },
+  {
+    "id": 309,
+    "title": "Libro de prueba 306",
+    "author": "Autor de prueba 06",
+    "genre": "Poesía",
+    "year": 2024,
+    "stock_id": "STK-309",
+    "stock": 18
+  },
+  {
+    "id": 310,
+    "title": "Libro de prueba 307",
+    "author": "Autor de prueba 07",
+    "genre": "Aventura",
+    "year": 2025,
+    "stock_id": "STK-310",
+    "stock": 19
+  },
+  {
+    "id": 311,
+    "title": "Libro de prueba 308",
+    "author": "Autor de prueba 08",
+    "genre": "Biografía",
+    "year": 2026,
+    "stock_id": "STK-311",
+    "stock": 20
+  },
+  {
+    "id": 312,
+    "title": "Libro de prueba 309",
+    "author": "Autor de prueba 09",
+    "genre": "Ensayo",
+    "year": 1950,
+    "stock_id": "STK-312",
+    "stock": 21
+  },
+  {
+    "id": 313,
+    "title": "Libro de prueba 310",
+    "author": "Autor de prueba 10",
+    "genre": "Novela histórica",
+    "year": 1951,
+    "stock_id": "STK-313",
+    "stock": 22
+  },
+  {
+    "id": 314,
+    "title": "Libro de prueba 311",
+    "author": "Autor de prueba 11",
+    "genre": "Ficción",
+    "year": 1952,
+    "stock_id": "STK-314",
+    "stock": 23
+  },
+  {
+    "id": 315,
+    "title": "Libro de prueba 312",
+    "author": "Autor de prueba 12",
+    "genre": "Ciencia ficción",
+    "year": 1953,
+    "stock_id": "STK-315",
+    "stock": 24
+  },
+  {
+    "id": 316,
+    "title": "Libro de prueba 313",
+    "author": "Autor de prueba 13",
+    "genre": "Fantasía",
+    "year": 1954,
+    "stock_id": "STK-316",
+    "stock": 25
+  },
+  {
+    "id": 317,
+    "title": "Libro de prueba 314",
+    "author": "Autor de prueba 14",
+    "genre": "Historia",
+    "year": 1955,
+    "stock_id": "STK-317",
+    "stock": 26
+  },
+  {
+    "id": 318,
+    "title": "Libro de prueba 315",
+    "author": "Autor de prueba 15",
+    "genre": "Misterio",
+    "year": 1956,
+    "stock_id": "STK-318",
+    "stock": 27
+  },
+  {
+    "id": 319,
+    "title": "Libro de prueba 316",
+    "author": "Autor de prueba 16",
+    "genre": "Poesía",
+    "year": 1957,
+    "stock_id": "STK-319",
+    "stock": 28
+  },
+  {
+    "id": 320,
+    "title": "Libro de prueba 317",
+    "author": "Autor de prueba 17",
+    "genre": "Aventura",
+    "year": 1958,
+    "stock_id": "STK-320",
+    "stock": 29
+  },
+  {
+    "id": 321,
+    "title": "Libro de prueba 318",
+    "author": "Autor de prueba 18",
+    "genre": "Biografía",
+    "year": 1959,
+    "stock_id": "STK-321",
+    "stock": 30
+  },
+  {
+    "id": 322,
+    "title": "Libro de prueba 319",
+    "author": "Autor de prueba 19",
+    "genre": "Ensayo",
+    "year": 1960,
+    "stock_id": "STK-322",
+    "stock": 31
+  },
+  {
+    "id": 323,
+    "title": "Libro de prueba 320",
+    "author": "Autor de prueba 20",
+    "genre": "Novela histórica",
+    "year": 1961,
+    "stock_id": "STK-323",
+    "stock": 32
+  },
+  {
+    "id": 324,
+    "title": "Libro de prueba 321",
+    "author": "Autor de prueba 21",
+    "genre": "Ficción",
+    "year": 1962,
+    "stock_id": "STK-324",
+    "stock": 33
+  },
+  {
+    "id": 325,
+    "title": "Libro de prueba 322",
+    "author": "Autor de prueba 22",
+    "genre": "Ciencia ficción",
+    "year": 1963,
+    "stock_id": "STK-325",
+    "stock": 34
+  },
+  {
+    "id": 326,
+    "title": "Libro de prueba 323",
+    "author": "Autor de prueba 23",
+    "genre": "Fantasía",
+    "year": 1964,
+    "stock_id": "STK-326",
+    "stock": 35
+  },
+  {
+    "id": 327,
+    "title": "Libro de prueba 324",
+    "author": "Autor de prueba 24",
+    "genre": "Historia",
+    "year": 1965,
+    "stock_id": "STK-327",
+    "stock": 36
+  },
+  {
+    "id": 328,
+    "title": "Libro de prueba 325",
+    "author": "Autor de prueba 25",
+    "genre": "Misterio",
+    "year": 1966,
+    "stock_id": "STK-328",
+    "stock": 37
+  },
+  {
+    "id": 329,
+    "title": "Libro de prueba 326",
+    "author": "Autor de prueba 26",
+    "genre": "Poesía",
+    "year": 1967,
+    "stock_id": "STK-329",
+    "stock": 38
+  },
+  {
+    "id": 330,
+    "title": "Libro de prueba 327",
+    "author": "Autor de prueba 27",
+    "genre": "Aventura",
+    "year": 1968,
+    "stock_id": "STK-330",
+    "stock": 39
+  },
+  {
+    "id": 331,
+    "title": "Libro de prueba 328",
+    "author": "Autor de prueba 28",
+    "genre": "Biografía",
+    "year": 1969,
+    "stock_id": "STK-331",
+    "stock": 40
+  },
+  {
+    "id": 332,
+    "title": "Libro de prueba 329",
+    "author": "Autor de prueba 29",
+    "genre": "Ensayo",
+    "year": 1970,
+    "stock_id": "STK-332",
+    "stock": 0
+  },
+  {
+    "id": 333,
+    "title": "Libro de prueba 330",
+    "author": "Autor de prueba 30",
+    "genre": "Novela histórica",
+    "year": 1971,
+    "stock_id": "STK-333",
+    "stock": 1
+  },
+  {
+    "id": 334,
+    "title": "Libro de prueba 331",
+    "author": "Autor de prueba 31",
+    "genre": "Ficción",
+    "year": 1972,
+    "stock_id": "STK-334",
+    "stock": 2
+  },
+  {
+    "id": 335,
+    "title": "Libro de prueba 332",
+    "author": "Autor de prueba 32",
+    "genre": "Ciencia ficción",
+    "year": 1973,
+    "stock_id": "STK-335",
+    "stock": 3
+  },
+  {
+    "id": 336,
+    "title": "Libro de prueba 333",
+    "author": "Autor de prueba 33",
+    "genre": "Fantasía",
+    "year": 1974,
+    "stock_id": "STK-336",
+    "stock": 4
+  },
+  {
+    "id": 337,
+    "title": "Libro de prueba 334",
+    "author": "Autor de prueba 34",
+    "genre": "Historia",
+    "year": 1975,
+    "stock_id": "STK-337",
+    "stock": 5
+  },
+  {
+    "id": 338,
+    "title": "Libro de prueba 335",
+    "author": "Autor de prueba 35",
+    "genre": "Misterio",
+    "year": 1976,
+    "stock_id": "STK-338",
+    "stock": 6
+  },
+  {
+    "id": 339,
+    "title": "Libro de prueba 336",
+    "author": "Autor de prueba 36",
+    "genre": "Poesía",
+    "year": 1977,
+    "stock_id": "STK-339",
+    "stock": 7
+  },
+  {
+    "id": 340,
+    "title": "Libro de prueba 337",
+    "author": "Autor de prueba 37",
+    "genre": "Aventura",
+    "year": 1978,
+    "stock_id": "STK-340",
+    "stock": 8
+  },
+  {
+    "id": 341,
+    "title": "Libro de prueba 338",
+    "author": "Autor de prueba 38",
+    "genre": "Biografía",
+    "year": 1979,
+    "stock_id": "STK-341",
+    "stock": 9
+  },
+  {
+    "id": 342,
+    "title": "Libro de prueba 339",
+    "author": "Autor de prueba 39",
+    "genre": "Ensayo",
+    "year": 1980,
+    "stock_id": "STK-342",
+    "stock": 10
+  },
+  {
+    "id": 343,
+    "title": "Libro de prueba 340",
+    "author": "Autor de prueba 40",
+    "genre": "Novela histórica",
+    "year": 1981,
+    "stock_id": "STK-343",
+    "stock": 11
+  },
+  {
+    "id": 344,
+    "title": "Libro de prueba 341",
+    "author": "Autor de prueba 41",
+    "genre": "Ficción",
+    "year": 1982,
+    "stock_id": "STK-344",
+    "stock": 12
+  },
+  {
+    "id": 345,
+    "title": "Libro de prueba 342",
+    "author": "Autor de prueba 42",
+    "genre": "Ciencia ficción",
+    "year": 1983,
+    "stock_id": "STK-345",
+    "stock": 13
+  },
+  {
+    "id": 346,
+    "title": "Libro de prueba 343",
+    "author": "Autor de prueba 43",
+    "genre": "Fantasía",
+    "year": 1984,
+    "stock_id": "STK-346",
+    "stock": 14
+  },
+  {
+    "id": 347,
+    "title": "Libro de prueba 344",
+    "author": "Autor de prueba 44",
+    "genre": "Historia",
+    "year": 1985,
+    "stock_id": "STK-347",
+    "stock": 15
+  },
+  {
+    "id": 348,
+    "title": "Libro de prueba 345",
+    "author": "Autor de prueba 45",
+    "genre": "Misterio",
+    "year": 1986,
+    "stock_id": "STK-348",
+    "stock": 16
+  },
+  {
+    "id": 349,
+    "title": "Libro de prueba 346",
+    "author": "Autor de prueba 46",
+    "genre": "Poesía",
+    "year": 1987,
+    "stock_id": "STK-349",
+    "stock": 17
+  },
+  {
+    "id": 350,
+    "title": "Libro de prueba 347",
+    "author": "Autor de prueba 47",
+    "genre": "Aventura",
+    "year": 1988,
+    "stock_id": "STK-350",
+    "stock": 18
+  },
+  {
+    "id": 351,
+    "title": "Libro de prueba 348",
+    "author": "Autor de prueba 48",
+    "genre": "Biografía",
+    "year": 1989,
+    "stock_id": "STK-351",
+    "stock": 19
+  },
+  {
+    "id": 352,
+    "title": "Libro de prueba 349",
+    "author": "Autor de prueba 49",
+    "genre": "Ensayo",
+    "year": 1990,
+    "stock_id": "STK-352",
+    "stock": 20
+  },
+  {
+    "id": 353,
+    "title": "Libro de prueba 350",
+    "author": "Autor de prueba 50",
+    "genre": "Novela histórica",
+    "year": 1991,
+    "stock_id": "STK-353",
+    "stock": 21
+  },
+  {
+    "id": 354,
+    "title": "Libro de prueba 351",
+    "author": "Autor de prueba 01",
+    "genre": "Ficción",
+    "year": 1992,
+    "stock_id": "STK-354",
+    "stock": 22
+  },
+  {
+    "id": 355,
+    "title": "Libro de prueba 352",
+    "author": "Autor de prueba 02",
+    "genre": "Ciencia ficción",
+    "year": 1993,
+    "stock_id": "STK-355",
+    "stock": 23
+  },
+  {
+    "id": 356,
+    "title": "Libro de prueba 353",
+    "author": "Autor de prueba 03",
+    "genre": "Fantasía",
+    "year": 1994,
+    "stock_id": "STK-356",
+    "stock": 24
+  },
+  {
+    "id": 357,
+    "title": "Libro de prueba 354",
+    "author": "Autor de prueba 04",
+    "genre": "Historia",
+    "year": 1995,
+    "stock_id": "STK-357",
+    "stock": 25
+  },
+  {
+    "id": 358,
+    "title": "Libro de prueba 355",
+    "author": "Autor de prueba 05",
+    "genre": "Misterio",
+    "year": 1996,
+    "stock_id": "STK-358",
+    "stock": 26
+  },
+  {
+    "id": 359,
+    "title": "Libro de prueba 356",
+    "author": "Autor de prueba 06",
+    "genre": "Poesía",
+    "year": 1997,
+    "stock_id": "STK-359",
+    "stock": 27
+  },
+  {
+    "id": 360,
+    "title": "Libro de prueba 357",
+    "author": "Autor de prueba 07",
+    "genre": "Aventura",
+    "year": 1998,
+    "stock_id": "STK-360",
+    "stock": 28
+  },
+  {
+    "id": 361,
+    "title": "Libro de prueba 358",
+    "author": "Autor de prueba 08",
+    "genre": "Biografía",
+    "year": 1999,
+    "stock_id": "STK-361",
+    "stock": 29
+  },
+  {
+    "id": 362,
+    "title": "Libro de prueba 359",
+    "author": "Autor de prueba 09",
+    "genre": "Ensayo",
+    "year": 2000,
+    "stock_id": "STK-362",
+    "stock": 30
+  },
+  {
+    "id": 363,
+    "title": "Libro de prueba 360",
+    "author": "Autor de prueba 10",
+    "genre": "Novela histórica",
+    "year": 2001,
+    "stock_id": "STK-363",
+    "stock": 31
+  },
+  {
+    "id": 364,
+    "title": "Libro de prueba 361",
+    "author": "Autor de prueba 11",
+    "genre": "Ficción",
+    "year": 2002,
+    "stock_id": "STK-364",
+    "stock": 32
+  },
+  {
+    "id": 365,
+    "title": "Libro de prueba 362",
+    "author": "Autor de prueba 12",
+    "genre": "Ciencia ficción",
+    "year": 2003,
+    "stock_id": "STK-365",
+    "stock": 33
+  },
+  {
+    "id": 366,
+    "title": "Libro de prueba 363",
+    "author": "Autor de prueba 13",
+    "genre": "Fantasía",
+    "year": 2004,
+    "stock_id": "STK-366",
+    "stock": 34
+  },
+  {
+    "id": 367,
+    "title": "Libro de prueba 364",
+    "author": "Autor de prueba 14",
+    "genre": "Historia",
+    "year": 2005,
+    "stock_id": "STK-367",
+    "stock": 35
+  },
+  {
+    "id": 368,
+    "title": "Libro de prueba 365",
+    "author": "Autor de prueba 15",
+    "genre": "Misterio",
+    "year": 2006,
+    "stock_id": "STK-368",
+    "stock": 36
+  },
+  {
+    "id": 369,
+    "title": "Libro de prueba 366",
+    "author": "Autor de prueba 16",
+    "genre": "Poesía",
+    "year": 2007,
+    "stock_id": "STK-369",
+    "stock": 37
+  },
+  {
+    "id": 370,
+    "title": "Libro de prueba 367",
+    "author": "Autor de prueba 17",
+    "genre": "Aventura",
+    "year": 2008,
+    "stock_id": "STK-370",
+    "stock": 38
+  },
+  {
+    "id": 371,
+    "title": "Libro de prueba 368",
+    "author": "Autor de prueba 18",
+    "genre": "Biografía",
+    "year": 2009,
+    "stock_id": "STK-371",
+    "stock": 39
+  },
+  {
+    "id": 372,
+    "title": "Libro de prueba 369",
+    "author": "Autor de prueba 19",
+    "genre": "Ensayo",
+    "year": 2010,
+    "stock_id": "STK-372",
+    "stock": 40
+  },
+  {
+    "id": 373,
+    "title": "Libro de prueba 370",
+    "author": "Autor de prueba 20",
+    "genre": "Novela histórica",
+    "year": 2011,
+    "stock_id": "STK-373",
+    "stock": 0
+  },
+  {
+    "id": 374,
+    "title": "Libro de prueba 371",
+    "author": "Autor de prueba 21",
+    "genre": "Ficción",
+    "year": 2012,
+    "stock_id": "STK-374",
+    "stock": 1
+  },
+  {
+    "id": 375,
+    "title": "Libro de prueba 372",
+    "author": "Autor de prueba 22",
+    "genre": "Ciencia ficción",
+    "year": 2013,
+    "stock_id": "STK-375",
+    "stock": 2
+  },
+  {
+    "id": 376,
+    "title": "Libro de prueba 373",
+    "author": "Autor de prueba 23",
+    "genre": "Fantasía",
+    "year": 2014,
+    "stock_id": "STK-376",
+    "stock": 3
+  },
+  {
+    "id": 377,
+    "title": "Libro de prueba 374",
+    "author": "Autor de prueba 24",
+    "genre": "Historia",
+    "year": 2015,
+    "stock_id": "STK-377",
+    "stock": 4
+  },
+  {
+    "id": 378,
+    "title": "Libro de prueba 375",
+    "author": "Autor de prueba 25",
+    "genre": "Misterio",
+    "year": 2016,
+    "stock_id": "STK-378",
+    "stock": 5
+  },
+  {
+    "id": 379,
+    "title": "Libro de prueba 376",
+    "author": "Autor de prueba 26",
+    "genre": "Poesía",
+    "year": 2017,
+    "stock_id": "STK-379",
+    "stock": 6
+  },
+  {
+    "id": 380,
+    "title": "Libro de prueba 377",
+    "author": "Autor de prueba 27",
+    "genre": "Aventura",
+    "year": 2018,
+    "stock_id": "STK-380",
+    "stock": 7
+  },
+  {
+    "id": 381,
+    "title": "Libro de prueba 378",
+    "author": "Autor de prueba 28",
+    "genre": "Biografía",
+    "year": 2019,
+    "stock_id": "STK-381",
+    "stock": 8
+  },
+  {
+    "id": 382,
+    "title": "Libro de prueba 379",
+    "author": "Autor de prueba 29",
+    "genre": "Ensayo",
+    "year": 2020,
+    "stock_id": "STK-382",
+    "stock": 9
+  },
+  {
+    "id": 383,
+    "title": "Libro de prueba 380",
+    "author": "Autor de prueba 30",
+    "genre": "Novela histórica",
+    "year": 2021,
+    "stock_id": "STK-383",
+    "stock": 10
+  },
+  {
+    "id": 384,
+    "title": "Libro de prueba 381",
+    "author": "Autor de prueba 31",
+    "genre": "Ficción",
+    "year": 2022,
+    "stock_id": "STK-384",
+    "stock": 11
+  },
+  {
+    "id": 385,
+    "title": "Libro de prueba 382",
+    "author": "Autor de prueba 32",
+    "genre": "Ciencia ficción",
+    "year": 2023,
+    "stock_id": "STK-385",
+    "stock": 12
+  },
+  {
+    "id": 386,
+    "title": "Libro de prueba 383",
+    "author": "Autor de prueba 33",
+    "genre": "Fantasía",
+    "year": 2024,
+    "stock_id": "STK-386",
+    "stock": 13
+  },
+  {
+    "id": 387,
+    "title": "Libro de prueba 384",
+    "author": "Autor de prueba 34",
+    "genre": "Historia",
+    "year": 2025,
+    "stock_id": "STK-387",
+    "stock": 14
+  },
+  {
+    "id": 388,
+    "title": "Libro de prueba 385",
+    "author": "Autor de prueba 35",
+    "genre": "Misterio",
+    "year": 2026,
+    "stock_id": "STK-388",
+    "stock": 15
+  },
+  {
+    "id": 389,
+    "title": "Libro de prueba 386",
+    "author": "Autor de prueba 36",
+    "genre": "Poesía",
+    "year": 1950,
+    "stock_id": "STK-389",
+    "stock": 16
+  },
+  {
+    "id": 390,
+    "title": "Libro de prueba 387",
+    "author": "Autor de prueba 37",
+    "genre": "Aventura",
+    "year": 1951,
+    "stock_id": "STK-390",
+    "stock": 17
+  },
+  {
+    "id": 391,
+    "title": "Libro de prueba 388",
+    "author": "Autor de prueba 38",
+    "genre": "Biografía",
+    "year": 1952,
+    "stock_id": "STK-391",
+    "stock": 18
+  },
+  {
+    "id": 392,
+    "title": "Libro de prueba 389",
+    "author": "Autor de prueba 39",
+    "genre": "Ensayo",
+    "year": 1953,
+    "stock_id": "STK-392",
+    "stock": 19
+  },
+  {
+    "id": 393,
+    "title": "Libro de prueba 390",
+    "author": "Autor de prueba 40",
+    "genre": "Novela histórica",
+    "year": 1954,
+    "stock_id": "STK-393",
+    "stock": 20
+  },
+  {
+    "id": 394,
+    "title": "Libro de prueba 391",
+    "author": "Autor de prueba 41",
+    "genre": "Ficción",
+    "year": 1955,
+    "stock_id": "STK-394",
+    "stock": 21
+  },
+  {
+    "id": 395,
+    "title": "Libro de prueba 392",
+    "author": "Autor de prueba 42",
+    "genre": "Ciencia ficción",
+    "year": 1956,
+    "stock_id": "STK-395",
+    "stock": 22
+  },
+  {
+    "id": 396,
+    "title": "Libro de prueba 393",
+    "author": "Autor de prueba 43",
+    "genre": "Fantasía",
+    "year": 1957,
+    "stock_id": "STK-396",
+    "stock": 23
+  },
+  {
+    "id": 397,
+    "title": "Libro de prueba 394",
+    "author": "Autor de prueba 44",
+    "genre": "Historia",
+    "year": 1958,
+    "stock_id": "STK-397",
+    "stock": 24
+  },
+  {
+    "id": 398,
+    "title": "Libro de prueba 395",
+    "author": "Autor de prueba 45",
+    "genre": "Misterio",
+    "year": 1959,
+    "stock_id": "STK-398",
+    "stock": 25
+  },
+  {
+    "id": 399,
+    "title": "Libro de prueba 396",
+    "author": "Autor de prueba 46",
+    "genre": "Poesía",
+    "year": 1960,
+    "stock_id": "STK-399",
+    "stock": 26
+  },
+  {
+    "id": 400,
+    "title": "Libro de prueba 397",
+    "author": "Autor de prueba 47",
+    "genre": "Aventura",
+    "year": 1961,
+    "stock_id": "STK-400",
+    "stock": 27
+  },
+  {
+    "id": 401,
+    "title": "Libro de prueba 398",
+    "author": "Autor de prueba 48",
+    "genre": "Biografía",
+    "year": 1962,
+    "stock_id": "STK-401",
+    "stock": 28
+  },
+  {
+    "id": 402,
+    "title": "Libro de prueba 399",
+    "author": "Autor de prueba 49",
+    "genre": "Ensayo",
+    "year": 1963,
+    "stock_id": "STK-402",
+    "stock": 29
+  },
+  {
+    "id": 403,
+    "title": "Libro de prueba 400",
+    "author": "Autor de prueba 50",
+    "genre": "Novela histórica",
+    "year": 1964,
+    "stock_id": "STK-403",
+    "stock": 30
+  },
+  {
+    "id": 404,
+    "title": "Libro de prueba 401",
+    "author": "Autor de prueba 01",
+    "genre": "Ficción",
+    "year": 1965,
+    "stock_id": "STK-404",
+    "stock": 31
+  },
+  {
+    "id": 405,
+    "title": "Libro de prueba 402",
+    "author": "Autor de prueba 02",
+    "genre": "Ciencia ficción",
+    "year": 1966,
+    "stock_id": "STK-405",
+    "stock": 32
+  },
+  {
+    "id": 406,
+    "title": "Libro de prueba 403",
+    "author": "Autor de prueba 03",
+    "genre": "Fantasía",
+    "year": 1967,
+    "stock_id": "STK-406",
+    "stock": 33
+  },
+  {
+    "id": 407,
+    "title": "Libro de prueba 404",
+    "author": "Autor de prueba 04",
+    "genre": "Historia",
+    "year": 1968,
+    "stock_id": "STK-407",
+    "stock": 34
+  },
+  {
+    "id": 408,
+    "title": "Libro de prueba 405",
+    "author": "Autor de prueba 05",
+    "genre": "Misterio",
+    "year": 1969,
+    "stock_id": "STK-408",
+    "stock": 35
+  },
+  {
+    "id": 409,
+    "title": "Libro de prueba 406",
+    "author": "Autor de prueba 06",
+    "genre": "Poesía",
+    "year": 1970,
+    "stock_id": "STK-409",
+    "stock": 36
+  },
+  {
+    "id": 410,
+    "title": "Libro de prueba 407",
+    "author": "Autor de prueba 07",
+    "genre": "Aventura",
+    "year": 1971,
+    "stock_id": "STK-410",
+    "stock": 37
+  },
+  {
+    "id": 411,
+    "title": "Libro de prueba 408",
+    "author": "Autor de prueba 08",
+    "genre": "Biografía",
+    "year": 1972,
+    "stock_id": "STK-411",
+    "stock": 38
+  },
+  {
+    "id": 412,
+    "title": "Libro de prueba 409",
+    "author": "Autor de prueba 09",
+    "genre": "Ensayo",
+    "year": 1973,
+    "stock_id": "STK-412",
+    "stock": 39
+  },
+  {
+    "id": 413,
+    "title": "Libro de prueba 410",
+    "author": "Autor de prueba 10",
+    "genre": "Novela histórica",
+    "year": 1974,
+    "stock_id": "STK-413",
+    "stock": 40
+  },
+  {
+    "id": 414,
+    "title": "Libro de prueba 411",
+    "author": "Autor de prueba 11",
+    "genre": "Ficción",
+    "year": 1975,
+    "stock_id": "STK-414",
+    "stock": 0
+  },
+  {
+    "id": 415,
+    "title": "Libro de prueba 412",
+    "author": "Autor de prueba 12",
+    "genre": "Ciencia ficción",
+    "year": 1976,
+    "stock_id": "STK-415",
+    "stock": 1
+  },
+  {
+    "id": 416,
+    "title": "Libro de prueba 413",
+    "author": "Autor de prueba 13",
+    "genre": "Fantasía",
+    "year": 1977,
+    "stock_id": "STK-416",
+    "stock": 2
+  },
+  {
+    "id": 417,
+    "title": "Libro de prueba 414",
+    "author": "Autor de prueba 14",
+    "genre": "Historia",
+    "year": 1978,
+    "stock_id": "STK-417",
+    "stock": 3
+  },
+  {
+    "id": 418,
+    "title": "Libro de prueba 415",
+    "author": "Autor de prueba 15",
+    "genre": "Misterio",
+    "year": 1979,
+    "stock_id": "STK-418",
+    "stock": 4
+  },
+  {
+    "id": 419,
+    "title": "Libro de prueba 416",
+    "author": "Autor de prueba 16",
+    "genre": "Poesía",
+    "year": 1980,
+    "stock_id": "STK-419",
+    "stock": 5
+  },
+  {
+    "id": 420,
+    "title": "Libro de prueba 417",
+    "author": "Autor de prueba 17",
+    "genre": "Aventura",
+    "year": 1981,
+    "stock_id": "STK-420",
+    "stock": 6
+  },
+  {
+    "id": 421,
+    "title": "Libro de prueba 418",
+    "author": "Autor de prueba 18",
+    "genre": "Biografía",
+    "year": 1982,
+    "stock_id": "STK-421",
+    "stock": 7
+  },
+  {
+    "id": 422,
+    "title": "Libro de prueba 419",
+    "author": "Autor de prueba 19",
+    "genre": "Ensayo",
+    "year": 1983,
+    "stock_id": "STK-422",
+    "stock": 8
+  },
+  {
+    "id": 423,
+    "title": "Libro de prueba 420",
+    "author": "Autor de prueba 20",
+    "genre": "Novela histórica",
+    "year": 1984,
+    "stock_id": "STK-423",
+    "stock": 9
+  },
+  {
+    "id": 424,
+    "title": "Libro de prueba 421",
+    "author": "Autor de prueba 21",
+    "genre": "Ficción",
+    "year": 1985,
+    "stock_id": "STK-424",
+    "stock": 10
+  },
+  {
+    "id": 425,
+    "title": "Libro de prueba 422",
+    "author": "Autor de prueba 22",
+    "genre": "Ciencia ficción",
+    "year": 1986,
+    "stock_id": "STK-425",
+    "stock": 11
+  },
+  {
+    "id": 426,
+    "title": "Libro de prueba 423",
+    "author": "Autor de prueba 23",
+    "genre": "Fantasía",
+    "year": 1987,
+    "stock_id": "STK-426",
+    "stock": 12
+  },
+  {
+    "id": 427,
+    "title": "Libro de prueba 424",
+    "author": "Autor de prueba 24",
+    "genre": "Historia",
+    "year": 1988,
+    "stock_id": "STK-427",
+    "stock": 13
+  },
+  {
+    "id": 428,
+    "title": "Libro de prueba 425",
+    "author": "Autor de prueba 25",
+    "genre": "Misterio",
+    "year": 1989,
+    "stock_id": "STK-428",
+    "stock": 14
+  },
+  {
+    "id": 429,
+    "title": "Libro de prueba 426",
+    "author": "Autor de prueba 26",
+    "genre": "Poesía",
+    "year": 1990,
+    "stock_id": "STK-429",
+    "stock": 15
+  },
+  {
+    "id": 430,
+    "title": "Libro de prueba 427",
+    "author": "Autor de prueba 27",
+    "genre": "Aventura",
+    "year": 1991,
+    "stock_id": "STK-430",
+    "stock": 16
+  },
+  {
+    "id": 431,
+    "title": "Libro de prueba 428",
+    "author": "Autor de prueba 28",
+    "genre": "Biografía",
+    "year": 1992,
+    "stock_id": "STK-431",
+    "stock": 17
+  },
+  {
+    "id": 432,
+    "title": "Libro de prueba 429",
+    "author": "Autor de prueba 29",
+    "genre": "Ensayo",
+    "year": 1993,
+    "stock_id": "STK-432",
+    "stock": 18
+  },
+  {
+    "id": 433,
+    "title": "Libro de prueba 430",
+    "author": "Autor de prueba 30",
+    "genre": "Novela histórica",
+    "year": 1994,
+    "stock_id": "STK-433",
+    "stock": 19
+  },
+  {
+    "id": 434,
+    "title": "Libro de prueba 431",
+    "author": "Autor de prueba 31",
+    "genre": "Ficción",
+    "year": 1995,
+    "stock_id": "STK-434",
+    "stock": 20
+  },
+  {
+    "id": 435,
+    "title": "Libro de prueba 432",
+    "author": "Autor de prueba 32",
+    "genre": "Ciencia ficción",
+    "year": 1996,
+    "stock_id": "STK-435",
+    "stock": 21
+  },
+  {
+    "id": 436,
+    "title": "Libro de prueba 433",
+    "author": "Autor de prueba 33",
+    "genre": "Fantasía",
+    "year": 1997,
+    "stock_id": "STK-436",
+    "stock": 22
+  },
+  {
+    "id": 437,
+    "title": "Libro de prueba 434",
+    "author": "Autor de prueba 34",
+    "genre": "Historia",
+    "year": 1998,
+    "stock_id": "STK-437",
+    "stock": 23
+  },
+  {
+    "id": 438,
+    "title": "Libro de prueba 435",
+    "author": "Autor de prueba 35",
+    "genre": "Misterio",
+    "year": 1999,
+    "stock_id": "STK-438",
+    "stock": 24
+  },
+  {
+    "id": 439,
+    "title": "Libro de prueba 436",
+    "author": "Autor de prueba 36",
+    "genre": "Poesía",
+    "year": 2000,
+    "stock_id": "STK-439",
+    "stock": 25
+  },
+  {
+    "id": 440,
+    "title": "Libro de prueba 437",
+    "author": "Autor de prueba 37",
+    "genre": "Aventura",
+    "year": 2001,
+    "stock_id": "STK-440",
+    "stock": 26
+  },
+  {
+    "id": 441,
+    "title": "Libro de prueba 438",
+    "author": "Autor de prueba 38",
+    "genre": "Biografía",
+    "year": 2002,
+    "stock_id": "STK-441",
+    "stock": 27
+  },
+  {
+    "id": 442,
+    "title": "Libro de prueba 439",
+    "author": "Autor de prueba 39",
+    "genre": "Ensayo",
+    "year": 2003,
+    "stock_id": "STK-442",
+    "stock": 28
+  },
+  {
+    "id": 443,
+    "title": "Libro de prueba 440",
+    "author": "Autor de prueba 40",
+    "genre": "Novela histórica",
+    "year": 2004,
+    "stock_id": "STK-443",
+    "stock": 29
+  },
+  {
+    "id": 444,
+    "title": "Libro de prueba 441",
+    "author": "Autor de prueba 41",
+    "genre": "Ficción",
+    "year": 2005,
+    "stock_id": "STK-444",
+    "stock": 30
+  },
+  {
+    "id": 445,
+    "title": "Libro de prueba 442",
+    "author": "Autor de prueba 42",
+    "genre": "Ciencia ficción",
+    "year": 2006,
+    "stock_id": "STK-445",
+    "stock": 31
+  },
+  {
+    "id": 446,
+    "title": "Libro de prueba 443",
+    "author": "Autor de prueba 43",
+    "genre": "Fantasía",
+    "year": 2007,
+    "stock_id": "STK-446",
+    "stock": 32
+  },
+  {
+    "id": 447,
+    "title": "Libro de prueba 444",
+    "author": "Autor de prueba 44",
+    "genre": "Historia",
+    "year": 2008,
+    "stock_id": "STK-447",
+    "stock": 33
+  },
+  {
+    "id": 448,
+    "title": "Libro de prueba 445",
+    "author": "Autor de prueba 45",
+    "genre": "Misterio",
+    "year": 2009,
+    "stock_id": "STK-448",
+    "stock": 34
+  },
+  {
+    "id": 449,
+    "title": "Libro de prueba 446",
+    "author": "Autor de prueba 46",
+    "genre": "Poesía",
+    "year": 2010,
+    "stock_id": "STK-449",
+    "stock": 35
+  },
+  {
+    "id": 450,
+    "title": "Libro de prueba 447",
+    "author": "Autor de prueba 47",
+    "genre": "Aventura",
+    "year": 2011,
+    "stock_id": "STK-450",
+    "stock": 36
+  },
+  {
+    "id": 451,
+    "title": "Libro de prueba 448",
+    "author": "Autor de prueba 48",
+    "genre": "Biografía",
+    "year": 2012,
+    "stock_id": "STK-451",
+    "stock": 37
+  },
+  {
+    "id": 452,
+    "title": "Libro de prueba 449",
+    "author": "Autor de prueba 49",
+    "genre": "Ensayo",
+    "year": 2013,
+    "stock_id": "STK-452",
+    "stock": 38
+  },
+  {
+    "id": 453,
+    "title": "Libro de prueba 450",
+    "author": "Autor de prueba 50",
+    "genre": "Novela histórica",
+    "year": 2014,
+    "stock_id": "STK-453",
+    "stock": 39
+  },
+  {
+    "id": 454,
+    "title": "Libro de prueba 451",
+    "author": "Autor de prueba 01",
+    "genre": "Ficción",
+    "year": 2015,
+    "stock_id": "STK-454",
+    "stock": 40
+  },
+  {
+    "id": 455,
+    "title": "Libro de prueba 452",
+    "author": "Autor de prueba 02",
+    "genre": "Ciencia ficción",
+    "year": 2016,
+    "stock_id": "STK-455",
+    "stock": 0
+  },
+  {
+    "id": 456,
+    "title": "Libro de prueba 453",
+    "author": "Autor de prueba 03",
+    "genre": "Fantasía",
+    "year": 2017,
+    "stock_id": "STK-456",
+    "stock": 1
+  },
+  {
+    "id": 457,
+    "title": "Libro de prueba 454",
+    "author": "Autor de prueba 04",
+    "genre": "Historia",
+    "year": 2018,
+    "stock_id": "STK-457",
+    "stock": 2
+  },
+  {
+    "id": 458,
+    "title": "Libro de prueba 455",
+    "author": "Autor de prueba 05",
+    "genre": "Misterio",
+    "year": 2019,
+    "stock_id": "STK-458",
+    "stock": 3
+  },
+  {
+    "id": 459,
+    "title": "Libro de prueba 456",
+    "author": "Autor de prueba 06",
+    "genre": "Poesía",
+    "year": 2020,
+    "stock_id": "STK-459",
+    "stock": 4
+  },
+  {
+    "id": 460,
+    "title": "Libro de prueba 457",
+    "author": "Autor de prueba 07",
+    "genre": "Aventura",
+    "year": 2021,
+    "stock_id": "STK-460",
+    "stock": 5
+  },
+  {
+    "id": 461,
+    "title": "Libro de prueba 458",
+    "author": "Autor de prueba 08",
+    "genre": "Biografía",
+    "year": 2022,
+    "stock_id": "STK-461",
+    "stock": 6
+  },
+  {
+    "id": 462,
+    "title": "Libro de prueba 459",
+    "author": "Autor de prueba 09",
+    "genre": "Ensayo",
+    "year": 2023,
+    "stock_id": "STK-462",
+    "stock": 7
+  },
+  {
+    "id": 463,
+    "title": "Libro de prueba 460",
+    "author": "Autor de prueba 10",
+    "genre": "Novela histórica",
+    "year": 2024,
+    "stock_id": "STK-463",
+    "stock": 8
+  },
+  {
+    "id": 464,
+    "title": "Libro de prueba 461",
+    "author": "Autor de prueba 11",
+    "genre": "Ficción",
+    "year": 2025,
+    "stock_id": "STK-464",
+    "stock": 9
+  },
+  {
+    "id": 465,
+    "title": "Libro de prueba 462",
+    "author": "Autor de prueba 12",
+    "genre": "Ciencia ficción",
+    "year": 2026,
+    "stock_id": "STK-465",
+    "stock": 10
+  },
+  {
+    "id": 466,
+    "title": "Libro de prueba 463",
+    "author": "Autor de prueba 13",
+    "genre": "Fantasía",
+    "year": 1950,
+    "stock_id": "STK-466",
+    "stock": 11
+  },
+  {
+    "id": 467,
+    "title": "Libro de prueba 464",
+    "author": "Autor de prueba 14",
+    "genre": "Historia",
+    "year": 1951,
+    "stock_id": "STK-467",
+    "stock": 12
+  },
+  {
+    "id": 468,
+    "title": "Libro de prueba 465",
+    "author": "Autor de prueba 15",
+    "genre": "Misterio",
+    "year": 1952,
+    "stock_id": "STK-468",
+    "stock": 13
+  },
+  {
+    "id": 469,
+    "title": "Libro de prueba 466",
+    "author": "Autor de prueba 16",
+    "genre": "Poesía",
+    "year": 1953,
+    "stock_id": "STK-469",
+    "stock": 14
+  },
+  {
+    "id": 470,
+    "title": "Libro de prueba 467",
+    "author": "Autor de prueba 17",
+    "genre": "Aventura",
+    "year": 1954,
+    "stock_id": "STK-470",
+    "stock": 15
+  },
+  {
+    "id": 471,
+    "title": "Libro de prueba 468",
+    "author": "Autor de prueba 18",
+    "genre": "Biografía",
+    "year": 1955,
+    "stock_id": "STK-471",
+    "stock": 16
+  },
+  {
+    "id": 472,
+    "title": "Libro de prueba 469",
+    "author": "Autor de prueba 19",
+    "genre": "Ensayo",
+    "year": 1956,
+    "stock_id": "STK-472",
+    "stock": 17
+  },
+  {
+    "id": 473,
+    "title": "Libro de prueba 470",
+    "author": "Autor de prueba 20",
+    "genre": "Novela histórica",
+    "year": 1957,
+    "stock_id": "STK-473",
+    "stock": 18
+  },
+  {
+    "id": 474,
+    "title": "Libro de prueba 471",
+    "author": "Autor de prueba 21",
+    "genre": "Ficción",
+    "year": 1958,
+    "stock_id": "STK-474",
+    "stock": 19
+  },
+  {
+    "id": 475,
+    "title": "Libro de prueba 472",
+    "author": "Autor de prueba 22",
+    "genre": "Ciencia ficción",
+    "year": 1959,
+    "stock_id": "STK-475",
+    "stock": 20
+  },
+  {
+    "id": 476,
+    "title": "Libro de prueba 473",
+    "author": "Autor de prueba 23",
+    "genre": "Fantasía",
+    "year": 1960,
+    "stock_id": "STK-476",
+    "stock": 21
+  },
+  {
+    "id": 477,
+    "title": "Libro de prueba 474",
+    "author": "Autor de prueba 24",
+    "genre": "Historia",
+    "year": 1961,
+    "stock_id": "STK-477",
+    "stock": 22
+  },
+  {
+    "id": 478,
+    "title": "Libro de prueba 475",
+    "author": "Autor de prueba 25",
+    "genre": "Misterio",
+    "year": 1962,
+    "stock_id": "STK-478",
+    "stock": 23
+  },
+  {
+    "id": 479,
+    "title": "Libro de prueba 476",
+    "author": "Autor de prueba 26",
+    "genre": "Poesía",
+    "year": 1963,
+    "stock_id": "STK-479",
+    "stock": 24
+  },
+  {
+    "id": 480,
+    "title": "Libro de prueba 477",
+    "author": "Autor de prueba 27",
+    "genre": "Aventura",
+    "year": 1964,
+    "stock_id": "STK-480",
+    "stock": 25
+  },
+  {
+    "id": 481,
+    "title": "Libro de prueba 478",
+    "author": "Autor de prueba 28",
+    "genre": "Biografía",
+    "year": 1965,
+    "stock_id": "STK-481",
+    "stock": 26
+  },
+  {
+    "id": 482,
+    "title": "Libro de prueba 479",
+    "author": "Autor de prueba 29",
+    "genre": "Ensayo",
+    "year": 1966,
+    "stock_id": "STK-482",
+    "stock": 27
+  },
+  {
+    "id": 483,
+    "title": "Libro de prueba 480",
+    "author": "Autor de prueba 30",
+    "genre": "Novela histórica",
+    "year": 1967,
+    "stock_id": "STK-483",
+    "stock": 28
+  },
+  {
+    "id": 484,
+    "title": "Libro de prueba 481",
+    "author": "Autor de prueba 31",
+    "genre": "Ficción",
+    "year": 1968,
+    "stock_id": "STK-484",
+    "stock": 29
+  },
+  {
+    "id": 485,
+    "title": "Libro de prueba 482",
+    "author": "Autor de prueba 32",
+    "genre": "Ciencia ficción",
+    "year": 1969,
+    "stock_id": "STK-485",
+    "stock": 30
+  },
+  {
+    "id": 486,
+    "title": "Libro de prueba 483",
+    "author": "Autor de prueba 33",
+    "genre": "Fantasía",
+    "year": 1970,
+    "stock_id": "STK-486",
+    "stock": 31
+  },
+  {
+    "id": 487,
+    "title": "Libro de prueba 484",
+    "author": "Autor de prueba 34",
+    "genre": "Historia",
+    "year": 1971,
+    "stock_id": "STK-487",
+    "stock": 32
+  },
+  {
+    "id": 488,
+    "title": "Libro de prueba 485",
+    "author": "Autor de prueba 35",
+    "genre": "Misterio",
+    "year": 1972,
+    "stock_id": "STK-488",
+    "stock": 33
+  },
+  {
+    "id": 489,
+    "title": "Libro de prueba 486",
+    "author": "Autor de prueba 36",
+    "genre": "Poesía",
+    "year": 1973,
+    "stock_id": "STK-489",
+    "stock": 34
+  },
+  {
+    "id": 490,
+    "title": "Libro de prueba 487",
+    "author": "Autor de prueba 37",
+    "genre": "Aventura",
+    "year": 1974,
+    "stock_id": "STK-490",
+    "stock": 35
+  },
+  {
+    "id": 491,
+    "title": "Libro de prueba 488",
+    "author": "Autor de prueba 38",
+    "genre": "Biografía",
+    "year": 1975,
+    "stock_id": "STK-491",
+    "stock": 36
+  },
+  {
+    "id": 492,
+    "title": "Libro de prueba 489",
+    "author": "Autor de prueba 39",
+    "genre": "Ensayo",
+    "year": 1976,
+    "stock_id": "STK-492",
+    "stock": 37
+  },
+  {
+    "id": 493,
+    "title": "Libro de prueba 490",
+    "author": "Autor de prueba 40",
+    "genre": "Novela histórica",
+    "year": 1977,
+    "stock_id": "STK-493",
+    "stock": 38
+  },
+  {
+    "id": 494,
+    "title": "Libro de prueba 491",
+    "author": "Autor de prueba 41",
+    "genre": "Ficción",
+    "year": 1978,
+    "stock_id": "STK-494",
+    "stock": 39
+  },
+  {
+    "id": 495,
+    "title": "Libro de prueba 492",
+    "author": "Autor de prueba 42",
+    "genre": "Ciencia ficción",
+    "year": 1979,
+    "stock_id": "STK-495",
+    "stock": 40
+  },
+  {
+    "id": 496,
+    "title": "Libro de prueba 493",
+    "author": "Autor de prueba 43",
+    "genre": "Fantasía",
+    "year": 1980,
+    "stock_id": "STK-496",
+    "stock": 0
+  },
+  {
+    "id": 497,
+    "title": "Libro de prueba 494",
+    "author": "Autor de prueba 44",
+    "genre": "Historia",
+    "year": 1981,
+    "stock_id": "STK-497",
+    "stock": 1
+  },
+  {
+    "id": 498,
+    "title": "Libro de prueba 495",
+    "author": "Autor de prueba 45",
+    "genre": "Misterio",
+    "year": 1982,
+    "stock_id": "STK-498",
+    "stock": 2
+  },
+  {
+    "id": 499,
+    "title": "Libro de prueba 496",
+    "author": "Autor de prueba 46",
+    "genre": "Poesía",
+    "year": 1983,
+    "stock_id": "STK-499",
+    "stock": 3
+  },
+  {
+    "id": 500,
+    "title": "Libro de prueba 497",
+    "author": "Autor de prueba 47",
+    "genre": "Aventura",
+    "year": 1984,
+    "stock_id": "STK-500",
+    "stock": 4
+  },
+  {
+    "id": 501,
+    "title": "Libro de prueba 498",
+    "author": "Autor de prueba 48",
+    "genre": "Biografía",
+    "year": 1985,
+    "stock_id": "STK-501",
+    "stock": 5
+  },
+  {
+    "id": 502,
+    "title": "Libro de prueba 499",
+    "author": "Autor de prueba 49",
+    "genre": "Ensayo",
+    "year": 1986,
+    "stock_id": "STK-502",
+    "stock": 6
+  },
+  {
+    "id": 503,
+    "title": "Libro de prueba 500",
+    "author": "Autor de prueba 50",
+    "genre": "Novela histórica",
+    "year": 1987,
+    "stock_id": "STK-503",
+    "stock": 7
   }
 ]
