@@ -1,0 +1,944 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://estante.local/schemas/event-schemas.json",
+  "title": "Estante Telemetry Event Schemas",
+  "description": "Catálogo de esquemas de telemetría de Estante. Define el Event Envelope estándar (snake_case, con context y metadata) y el payload (properties) de cada event_type. Alineado con telemetry-plan.md.",
+  "version": "1.0.0",
+  "naming_convention": "snake_case",
+  "event_envelope": {
+    "type": "object",
+    "description": "Sobre estándar que TODO evento debe seguir, sin excepción. Todas las claves usan snake_case.",
+    "required": [
+      "event_id",
+      "timestamp",
+      "session_id",
+      "user_id",
+      "event_type",
+      "schema_version",
+      "request_id",
+      "source",
+      "context",
+      "metadata",
+      "properties"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "event_id": {
+        "type": "string",
+        "format": "uuid",
+        "description": "Identificador único del evento (UUID v4). Clave de idempotencia: los consumidores deduplican por este valor al reenviarse lotes."
+      },
+      "timestamp": {
+        "type": "string",
+        "format": "date-time",
+        "description": "Momento de ocurrencia en el cliente, formato ISO 8601 con offset UTC, ej. 2026-10-30T14:23:05.123Z."
+      },
+      "session_id": {
+        "type": "string",
+        "format": "uuid",
+        "description": "Sesión anónima generada en localStorage; expira por inactividad (15 min). Permite agrupar acciones y calcular tiempo en la aplicación."
+      },
+      "user_id": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "Identificador de usuario autenticado. Siempre null hoy (sin login); reservado para el futuro."
+      },
+      "event_type": {
+        "$ref": "#/$defs/event_type"
+      },
+      "schema_version": {
+        "type": "string",
+        "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+        "description": "Versión semántica del esquema del evento, ej. 1.0.0. Compatibles → patch; campos nuevos → minor; incompatibles → major."
+      },
+      "request_id": {
+        "type": "string",
+        "format": "uuid",
+        "description": "Correlación frontend–backend–logs. El mismo valor se envía en la cabecera X-Request-Id de la API y en los logs del servidor."
+      },
+      "source": {
+        "type": "string",
+        "enum": [
+          "frontend",
+          "backend"
+        ],
+        "description": "Quién emitió el evento."
+      },
+      "context": {
+        "type": "object",
+        "description": "Entorno donde ocurrió el evento (app/navegador). Estable durante la página/sesión; no cambia evento a evento salvo navegación.",
+        "required": [
+          "app_version",
+          "page_path"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "app_version": {
+            "type": "string",
+            "maxLength": 40,
+            "description": "Versión de la aplicación desplegada, ej. 1.0.0."
+          },
+          "page_path": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 300,
+            "description": "Ruta activa donde ocurrió el evento, ej. /books/7."
+          },
+          "referrer": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 300,
+            "description": "Ruta o URL de procedencia (document.referrer o ruta anterior)."
+          },
+          "viewport_width": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0,
+            "description": "Ancho del viewport en píxeles."
+          },
+          "os": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 80,
+            "description": "Sistema operativo/navegador derivado de user_agent, ej. macOS / Chrome 130."
+          },
+          "language": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 35,
+            "description": "Idioma del navegador, ej. es-ES."
+          }
+        }
+      },
+      "metadata": {
+        "type": "object",
+        "description": "Metadatos de entrega e instrumentación del propio evento (cómo y cuándo se emitió).",
+        "required": [
+          "sequence",
+          "batch_id",
+          "sent_at",
+          "emitter"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "sequence": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Nº correlativo de evento dentro de la sesión (orden de emisión)."
+          },
+          "batch_id": {
+            "type": "string",
+            "format": "uuid",
+            "description": "Agrupa todos los eventos enviados en el mismo POST /events. Útil para debug de lotes."
+          },
+          "sent_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Momento en que el emisor envió el lote (puede diferir de timestamp por el buffer)."
+          },
+          "emitter": {
+            "type": "string",
+            "maxLength": 120,
+            "description": "Librería/versión que emitió el evento, ej. estante-telemetry/1.0.0."
+          },
+          "locale": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 35,
+            "description": "Locale usado por el emisor para formato, ej. es-ES."
+          }
+        }
+      },
+      "properties": {
+        "type": "object",
+        "description": "Payload específico del event_type. Debe validar contra la definición correspondiente en event_definitions.",
+        "additionalProperties": false
+      }
+    }
+  },
+  "$defs": {
+    "event_type": {
+      "type": "string",
+      "description": "Taxonomía consistente entidad_acción en snake_case, ej. order_submitted / book_detail_viewed.",
+      "pattern": "^[a-z][a-z0-9]*(_[a-z0-9]+)+$",
+      "examples": [
+        "book_created",
+        "stock_low_detected",
+        "book_detail_viewed"
+      ]
+    }
+  },
+  "transport": {
+    "ingest_endpoint": "POST /events",
+    "content_type": "application/json",
+    "batch_request_schema": {
+      "type": "object",
+      "required": [
+        "events"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "events": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 50,
+          "items": {
+            "$ref": "#/event_envelope"
+          }
+        }
+      }
+    },
+    "flush_policy": {
+      "mode": "batch",
+      "max_buffered_events": 20,
+      "max_buffer_age_ms": 5000,
+      "immediate_flush_on": [
+        "session_end",
+        "pagehide"
+      ],
+      "retry": "reenvío del lote completo; idempotente por event_id",
+      "persistence": "backend/events.jsonl (append-only, un evento por línea JSON)"
+    },
+    "delivery_latency": {
+      "emission": "batch",
+      "consumption": "stream (lector con tail sobre events.jsonl, latencia de segundos)",
+      "aggregation": "batch (reportes cada 1–5 min)"
+    }
+  },
+  "event_definitions": {
+    "book_created": {
+      "schema_version": "1.0.0",
+      "source": [
+        "frontend"
+      ],
+      "description": "Alta de un libro en el catálogo con su stock inicial. Es el evento que hoy representa la llegada de mercancía (OP-01); el flujo explícito de recepción usará goods_received (futuro).",
+      "opportunity": "OP-01",
+      "emit_when": "Tras un POST /book exitoso (201).",
+      "properties": {
+        "type": "object",
+        "required": [
+          "book_id",
+          "stock_id",
+          "units"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "book_id": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "title": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "genre": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "stock_id": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "units": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Unidades que entran al inventario."
+          }
+        }
+      }
+    },
+    "goods_received": {
+      "schema_version": "1.0.0",
+      "source": [
+        "frontend",
+        "backend"
+      ],
+      "status": "futuro",
+      "description": "Llegada de mercancía como flujo explícito (recepción de unidades sobre un stock existente). Reservado en la taxonomía; no se emite hasta que exista el flujo de recepción.",
+      "opportunity": "OP-01",
+      "emit_when": "N/A (futuro). Hoy la llegada de mercancía se deriva de book_created.",
+      "properties": {
+        "type": "object",
+        "required": [
+          "stock_id",
+          "units_received"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "stock_id": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "units_received": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "book_id": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "supplier_ref": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 80
+          }
+        }
+      }
+    },
+    "stock_low_detected": {
+      "schema_version": "1.0.0",
+      "source": [
+        "frontend",
+        "backend"
+      ],
+      "description": "Se detecta stock en riesgo (stock <= threshold) al crear o actualizar un libro. Único evento con consumo en segundos (alerta en stream).",
+      "opportunity": "OP-02",
+      "emit_when": "Al crear/actualizar un libro cuyo stock <= threshold (default 3).",
+      "properties": {
+        "type": "object",
+        "required": [
+          "book_id",
+          "stock_id",
+          "stock",
+          "threshold"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "book_id": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "stock_id": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "title": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "stock": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Stock al momento de la detección."
+          },
+          "threshold": {
+            "type": "integer",
+            "minimum": 0,
+            "default": 3,
+            "description": "Umbral de la alerta; viaja en el evento para que el consumidor no lo hardcodee."
+          }
+        }
+      }
+    },
+    "book_detail_viewed": {
+      "schema_version": "1.0.0",
+      "source": [
+        "frontend"
+      ],
+      "description": "Click en 'ver detalle' de un libro (BookCard → /books/:id). Base del ranking de libro más popular.",
+      "opportunity": "OP-03",
+      "emit_when": "Al montar BookDetailPage con un id válido y obtener el libro.",
+      "properties": {
+        "type": "object",
+        "required": [
+          "book_id",
+          "genre",
+          "list_position"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "book_id": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "genre": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "list_position": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "description": "Posición visible en el catálogo al hacer click; null si no procede."
+          },
+          "search_query": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 120,
+            "description": "Búsqueda activa en el momento del click; null si navegó sin buscar."
+          },
+          "has_stock": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "catalog_search": {
+      "schema_version": "1.0.0",
+      "source": [
+        "frontend"
+      ],
+      "description": "Búsqueda en el catálogo. Detecta gaps de catálogo (búsquedas sin resultados).",
+      "opportunity": "OP-03",
+      "emit_when": "Al enviar/consultar en el input de búsqueda (con al menos 2 caracteres), con el resultado del filtro.",
+      "properties": {
+        "type": "object",
+        "required": [
+          "query",
+          "result_count"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "query": {
+            "type": "string",
+            "maxLength": 120
+          },
+          "result_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "search_type": {
+            "type": "string",
+            "enum": [
+              "title",
+              "author",
+              "genre",
+              "stock_id",
+              "general"
+            ]
+          }
+        }
+      }
+    },
+    "stock_consulted": {
+      "schema_version": "1.0.0",
+      "source": [
+        "frontend"
+      ],
+      "description": "Consulta de disponibilidad por ID de stock (formulario 'Consultar disponibilidad').",
+      "opportunity": "OP-03",
+      "emit_when": "Tras responder GET /book/stock/{stock_id} (éxito o 404).",
+      "properties": {
+        "type": "object",
+        "required": [
+          "stock_id",
+          "found"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "stock_id": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "found": {
+            "type": "boolean"
+          },
+          "stock": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0,
+            "description": "Unidades disponibles si found=true."
+          },
+          "book_id": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "session_started": {
+      "schema_version": "1.0.0",
+      "source": [
+        "frontend"
+      ],
+      "description": "Inicio de sesión anónima en la aplicación. Ancla del tiempo en la aplicación.",
+      "opportunity": "OP-04",
+      "emit_when": "Al cargar la app si no hay sesión vigente (o tras expirar por inactividad de 15 min).",
+      "properties": {
+        "type": "object",
+        "required": [
+          "entry_path"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "entry_path": {
+            "type": "string",
+            "maxLength": 300
+          },
+          "referrer": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 300
+          },
+          "viewport_width": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "session_ended": {
+      "schema_version": "1.0.0",
+      "source": [
+        "frontend"
+      ],
+      "description": "Cierre de sesión anónima con su duración. Fuente de la métrica de tiempo en la aplicación.",
+      "opportunity": "OP-04",
+      "emit_when": "En pagehide/beforeunload (flush inmediato) o por inactividad de 15 min.",
+      "properties": {
+        "type": "object",
+        "required": [
+          "duration_ms",
+          "end_reason"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "duration_ms": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Tiempo en la aplicación de esta sesión."
+          },
+          "end_reason": {
+            "type": "string",
+            "enum": [
+              "idle_timeout",
+              "pagehide",
+              "logout",
+              "reload"
+            ]
+          },
+          "event_count": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Eventos emitidos durante la sesión."
+          }
+        }
+      }
+    },
+    "page_viewed": {
+      "schema_version": "1.0.0",
+      "source": [
+        "frontend"
+      ],
+      "description": "Vista de una ruta (catálogo o detalle).",
+      "opportunity": "OP-05",
+      "emit_when": "Al montar cada página (BooksPage, BookDetailPage).",
+      "properties": {
+        "type": "object",
+        "required": [
+          "path",
+          "page"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string",
+            "maxLength": 300
+          },
+          "page": {
+            "type": "string",
+            "enum": [
+              "catalog",
+              "book_detail"
+            ]
+          },
+          "book_id": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "app_loaded": {
+      "schema_version": "1.0.0",
+      "source": [
+        "frontend"
+      ],
+      "description": "Carga inicial completada (catálogo pintado). Mide el arranque de la aplicación.",
+      "opportunity": "OP-05",
+      "emit_when": "Cuando BooksPage termina su primera carga (loading=false sin error).",
+      "properties": {
+        "type": "object",
+        "required": [
+          "load_time_ms",
+          "succeeded"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "load_time_ms": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Desde navigation timing hasta pintar el catálogo."
+          },
+          "succeeded": {
+            "type": "boolean"
+          },
+          "book_count": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "app_error": {
+      "schema_version": "1.0.0",
+      "source": [
+        "frontend"
+      ],
+      "description": "Error de interfaz o de consumo de API visto por el usuario.",
+      "opportunity": "OP-05",
+      "emit_when": "Al capturar un error en carga de datos, render o ruta inválida.",
+      "properties": {
+        "type": "object",
+        "required": [
+          "error_scope",
+          "message"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "error_scope": {
+            "type": "string",
+            "enum": [
+              "render",
+              "data_load",
+              "route",
+              "network"
+            ]
+          },
+          "message": {
+            "type": "string",
+            "maxLength": 500
+          },
+          "path": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 300
+          }
+        }
+      }
+    },
+    "api_request_completed": {
+      "schema_version": "1.0.0",
+      "source": [
+        "backend"
+      ],
+      "description": "Request de API finalizado con éxito (2xx). Mide latencia y volumen por endpoint.",
+      "opportunity": "OP-06",
+      "emit_when": "Middleware/intercapedor de FastAPI tras cada respuesta 2xx.",
+      "properties": {
+        "type": "object",
+        "required": [
+          "method",
+          "route",
+          "status",
+          "duration_ms",
+          "cache"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "method": {
+            "type": "string",
+            "enum": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          },
+          "route": {
+            "type": "string",
+            "maxLength": 200,
+            "description": "Ruta plantilla, ej. /book/{book_id} (no el valor concreto del path)."
+          },
+          "status": {
+            "type": "integer",
+            "minimum": 200,
+            "maximum": 599
+          },
+          "duration_ms": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "cache": {
+            "type": "string",
+            "enum": [
+              "hit",
+              "miss",
+              "bypass"
+            ],
+            "description": "Estado del caché backend (fastapi-cache, TTL 60 s)."
+          }
+        }
+      }
+    },
+    "api_request_failed": {
+      "schema_version": "1.0.0",
+      "source": [
+        "backend"
+      ],
+      "description": "Request de API fallido (4xx/5xx).",
+      "opportunity": "OP-06",
+      "emit_when": "Tras una respuesta 4xx/5xx del backend.",
+      "properties": {
+        "type": "object",
+        "required": [
+          "method",
+          "route",
+          "status",
+          "duration_ms"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "method": {
+            "type": "string",
+            "enum": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          },
+          "route": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "status": {
+            "type": "integer",
+            "minimum": 400,
+            "maximum": 599
+          },
+          "duration_ms": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "detail": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 500
+          }
+        }
+      }
+    },
+    "cache_hit": {
+      "schema_version": "1.0.0",
+      "source": [
+        "frontend",
+        "backend"
+      ],
+      "description": "Lectura servida desde caché. Mide el hit rate de las dos capas.",
+      "opportunity": "OP-07",
+      "emit_when": "Frontend: al servir una respuesta del Map en memoria. Backend: decorador @cache golpea.",
+      "properties": {
+        "type": "object",
+        "required": [
+          "layer",
+          "resource"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "layer": {
+            "type": "string",
+            "enum": [
+              "frontend_memory",
+              "backend_inmemory"
+            ]
+          },
+          "resource": {
+            "type": "string",
+            "maxLength": 200,
+            "description": "Clave de recurso, ej. GET /books."
+          },
+          "age_ms": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0,
+            "description": "Antigüedad de la entrada servida."
+          }
+        }
+      }
+    },
+    "cache_miss": {
+      "schema_version": "1.0.0",
+      "source": [
+        "frontend",
+        "backend"
+      ],
+      "description": "Lectura que no encontró entrada en caché y tuvo que ir a la fuente.",
+      "opportunity": "OP-07",
+      "emit_when": "Frontend: cache expirado o ausente. Backend: decorador @cache sin entrada.",
+      "properties": {
+        "type": "object",
+        "required": [
+          "layer",
+          "resource"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "layer": {
+            "type": "string",
+            "enum": [
+              "frontend_memory",
+              "backend_inmemory"
+            ]
+          },
+          "resource": {
+            "type": "string",
+            "maxLength": 200
+          },
+          "reason": {
+            "type": "string",
+            "enum": [
+              "absent",
+              "expired",
+              "invalidated"
+            ],
+            "description": "invalidated = tras POST /book."
+          }
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "event_id": "f4a9d2c6-8f31-4f7f-9f0b-1c9a2e5d7b11",
+      "timestamp": "2026-10-30T14:23:05.123Z",
+      "session_id": "b1d0c7e2-3a44-4f5a-8f7d-6e2c9a01b3d4",
+      "user_id": null,
+      "event_type": "book_detail_viewed",
+      "schema_version": "1.0.0",
+      "request_id": "7c1e5b93-2d88-4a06-b5f1-9e3a4c0d8a22",
+      "source": "frontend",
+      "context": {
+        "app_version": "1.0.0",
+        "page_path": "/books/7",
+        "referrer": "/",
+        "viewport_width": 1440,
+        "os": "macOS / Chrome 130",
+        "language": "es-ES"
+      },
+      "metadata": {
+        "sequence": 4,
+        "batch_id": "5c8d1e70-9a2f-4b61-b3d7-2e8f4a6c09d1",
+        "sent_at": "2026-10-30T14:23:06.002Z",
+        "emitter": "estante-telemetry/1.0.0",
+        "locale": "es-ES"
+      },
+      "properties": {
+        "book_id": 7,
+        "genre": "Ficción",
+        "list_position": 2,
+        "search_query": "garcía",
+        "has_stock": true
+      }
+    },
+    {
+      "event_id": "2e77a1b5-4c9d-4f63-8a11-0d5b3e9c7f64",
+      "timestamp": "2026-10-30T14:23:10.481Z",
+      "session_id": "b1d0c7e2-3a44-4f5a-8f7d-6e2c9a01b3d4",
+      "user_id": null,
+      "event_type": "stock_low_detected",
+      "schema_version": "1.0.0",
+      "request_id": "9a4f0d17-6b52-4c8e-9d3a-1f7e2b6c05d8",
+      "source": "backend",
+      "context": {
+        "app_version": "1.0.0",
+        "page_path": "/books/7",
+        "referrer": null,
+        "viewport_width": 1440,
+        "os": null,
+        "language": "es-ES"
+      },
+      "metadata": {
+        "sequence": 5,
+        "batch_id": "5c8d1e70-9a2f-4b61-b3d7-2e8f4a6c09d1",
+        "sent_at": "2026-10-30T14:23:10.500Z",
+        "emitter": "estante-telemetry/1.0.0",
+        "locale": "es-ES"
+      },
+      "properties": {
+        "book_id": 7,
+        "stock_id": "STK-007",
+        "title": "Cien años de soledad",
+        "stock": 2,
+        "threshold": 3
+      }
+    },
+    {
+      "event_id": "6b2f8e04-7d1a-4b3c-a6e8-5c9f30d1b7a9",
+      "timestamp": "2026-10-30T14:23:14.902Z",
+      "session_id": "b1d0c7e2-3a44-4f5a-8f7d-6e2c9a01b3d4",
+      "user_id": null,
+      "event_type": "session_ended",
+      "schema_version": "1.0.0",
+      "request_id": "c3e81a56-0f94-4d2b-8e75-4a6d9b2c11f0",
+      "source": "frontend",
+      "context": {
+        "app_version": "1.0.0",
+        "page_path": "/books/7",
+        "referrer": "/",
+        "viewport_width": 1440,
+        "os": "macOS / Chrome 130",
+        "language": "es-ES"
+      },
+      "metadata": {
+        "sequence": 12,
+        "batch_id": "9f3a7c25-1e68-4d0b-a594-7b2c8e0f6d33",
+        "sent_at": "2026-10-30T14:23:14.950Z",
+        "emitter": "estante-telemetry/1.0.0",
+        "locale": "es-ES"
+      },
+      "properties": {
+        "duration_ms": 93407,
+        "end_reason": "pagehide",
+        "event_count": 12
+      }
+    }
+  ]
+}
