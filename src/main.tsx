@@ -4,7 +4,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Layout } from './components/Layout'
 import { BookDetailPage } from './pages/BookDetailPage'
 import { BooksPage } from './pages/BooksPage'
+import { initTelemetry } from './telemetry'
 import './styles.css'
+
+initTelemetry()
 
 const router = createBrowserRouter([
   {

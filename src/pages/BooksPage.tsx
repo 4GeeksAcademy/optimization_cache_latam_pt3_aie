@@ -4,6 +4,7 @@ import { getBooks, getStock } from '../api/books'
 import { AddBookForm } from '../components/AddBookForm'
 import { BookCard } from '../components/BookCard'
 import type { Book, StockResult } from '../types'
+import { trackError, trackEvent } from '../telemetry'
 
 export function BooksPage() {
   const [books, setBooks] = useState<Book[]>([])
@@ -19,11 +20,18 @@ export function BooksPage() {
     setLoading(true)
     setError('')
     try { setBooks(await getBooks()) }
-    catch (err) { setError(err instanceof Error ? err.message : 'No se pudieron cargar los libros.') }
+    catch (err) {
+      const message = err instanceof Error ? err.message : 'No se pudieron cargar los libros.'
+      setError(message)
+      trackError({ error_scope: 'data_load', message })
+    }
     finally { setLoading(false) }
   }
 
-  useEffect(() => { void loadBooks() }, [])
+  useEffect(() => {
+    trackEvent('page_viewed', { path: window.location.pathname, page: 'catalog' })
+    void loadBooks()
+  }, [])
 
   const filteredBooks = useMemo(() => {
     const normalized = query.trim().toLocaleLowerCase('es')

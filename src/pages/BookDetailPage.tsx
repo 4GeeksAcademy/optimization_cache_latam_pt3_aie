@@ -3,6 +3,7 @@ import { ArrowLeft, BookOpen, PackageCheck } from 'lucide-react'
 import { Link, useParams } from 'react-router-dom'
 import { getBook } from '../api/books'
 import type { Book } from '../types'
+import { trackError, trackEvent } from '../telemetry'
 
 export function BookDetailPage() {
   const { id } = useParams()
@@ -10,11 +11,24 @@ export function BookDetailPage() {
   const [error, setError] = useState('')
 
   useEffect(() => {
-    if (!id || !/^\d+$/.test(id)) {
-      setError('El identificador del libro no es válido.')
+    const validId = !!id && /^\d+$/.test(id) && Number(id) > 0
+    trackEvent('page_viewed', { path: window.location.pathname, page: 'book_detail', book_id: validId ? Number(id) : null })
+    if (!validId) {
+      const message = 'El identificador del libro no es válido.'
+      setError(message)
+      trackError({ error_scope: 'route', message })
       return
     }
-    getBook(Number(id)).then(setBook).catch((err: unknown) => setError(err instanceof Error ? err.message : 'No se pudo cargar el libro.'))
+    getBook(Number(id))
+      .then((loaded) => {
+        setBook(loaded)
+        trackEvent('book_detail_viewed', { book_id: loaded.id, genre: loaded.genre, list_position: null, has_stock: loaded.stock > 0 })
+      })
+      .catch((err: unknown) => {
+        const message = err instanceof Error ? err.message : 'No se pudo cargar el libro.'
+        setError(message)
+        trackError({ error_scope: 'data_load', message })
+      })
   }, [id])
 
   return (

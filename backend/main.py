@@ -1,22 +1,30 @@
 from __future__ import annotations
 
 import json
+import logging
 import os
 import tempfile
+from collections import Counter
 from contextlib import asynccontextmanager
+from datetime import datetime
 from pathlib import Path
 from threading import Lock
+from typing import Any, Literal
+from uuid import UUID
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi_cache import FastAPICache
 from fastapi_cache.backends.inmemory import InMemoryBackend
 from fastapi_cache.decorator import cache
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 
 DATA_FILE = Path(__file__).with_name("books.json")
 _data_lock = Lock()
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
+telemetry_logger = logging.getLogger("estante.telemetry")
 
 
 class BookCreate(BaseModel):
@@ -30,6 +38,49 @@ class BookCreate(BaseModel):
 
 class Book(BookCreate):
     id: int
+
+
+class EventContext(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    app_version: str = Field(max_length=40)
+    page_path: str | None = Field(max_length=300)
+    referrer: str | None = Field(default=None, max_length=300)
+    viewport_width: int | None = Field(default=None, ge=0)
+    os: str | None = Field(default=None, max_length=80)
+    language: str | None = Field(default=None, max_length=35)
+
+
+class EventMetadata(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    sequence: int = Field(ge=1)
+    batch_id: UUID
+    sent_at: datetime
+    emitter: str = Field(max_length=120)
+    locale: str | None = Field(default=None, max_length=35)
+
+
+class TelemetryEvent(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    event_id: UUID
+    timestamp: datetime
+    session_id: UUID
+    user_id: str | None
+    event_type: str = Field(pattern=r"^[a-z][a-z0-9]*(_[a-z0-9]+)+$")
+    schema_version: str = Field(pattern=r"^[0-9]+\.[0-9]+\.[0-9]+$")
+    request_id: UUID
+    source: Literal["frontend", "backend"]
+    context: EventContext
+    metadata: EventMetadata
+    properties: dict[str, Any]
+
+
+class EventBatch(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    events: list[TelemetryEvent] = Field(min_length=1, max_length=50)
 
 
 def _read_books() -> list[dict]:
@@ -68,6 +119,20 @@ app.add_middleware(
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
+
+
+@app.post("/events", status_code=200)
+def ingest_events(batch: EventBatch) -> dict:
+    # Sin persistencia todavía: solo valida el formato del lote y lo registra.
+    count = len(batch.events)
+    by_type = Counter(event.event_type for event in batch.events)
+    telemetry_logger.info(
+        "batch_id=%s eventos=%d tipos=%s",
+        batch.events[0].metadata.batch_id,
+        count,
+        dict(by_type),
+    )
+    return {"received": count}
 
 
 @app.get("/books", response_model=list[Book])
